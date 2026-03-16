@@ -193,6 +193,23 @@ button.generate-btn:disabled {
   font-weight: 600;
 }
 
+/* ── Дисклеймер ── */
+
+.disclaimer {
+  font-size: 0.65rem;
+  color: #c4b9ad;
+  text-align: center;
+  line-height: 1.5;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.disclaimer.visible {
+  opacity: 1;
+}
+
 /* ── Счётчик ── */
 
 .counter {

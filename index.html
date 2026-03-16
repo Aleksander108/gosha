@@ -44,6 +44,8 @@
 
     <p class="counter" id="counter"></p>
 
+    <p class="disclaimer" id="disclaimer">Все персонажи, события и организации вымышлены. Любое сходство с реальными людьми, живыми или умершими, является случайным. Исторические имена использованы в пародийном контексте. 18+</p>
+
   </div>
 
   <script src="generator.js"></script>
@@ -68,6 +70,7 @@
     const resultArea = document.getElementById('resultArea');
     const resultText = document.getElementById('resultText');
     const counterEl = document.getElementById('counter');
+    const disclaimerEl = document.getElementById('disclaimer');
 
     async function handleGenerate() {
       const raw = inputEl.value.trim();
@@ -92,6 +95,7 @@
 
         genCount++;
         counterEl.textContent = `генераций: ${genCount}`;
+        if (genCount === 1) disclaimerEl.classList.add('visible');
 
       } catch (err) {
         resultText.textContent = 'Что-то сломалось. Попробуй ещё раз.';
