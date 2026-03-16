@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Гоша — помогаю перестать беспокоиться</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Я Гоша, помогаю перестать беспокоиться</h1>
+      <p class="subtitle">Напиши коротко, в двух словах, что тебя беспокоит, и нажми кнопку «Лечите меня»</p>
+    </header>
+
+    <div class="input-area">
+      <textarea
+        id="userInput"
+        placeholder="боюсь облажаться..."
+        maxlength="200"
+        autofocus
+      ></textarea>
+
+      <button class="generate-btn" id="generateBtn" onclick="handleGenerate()">
+        Лечите меня
+      </button>
+    </div>
+
+    <div class="therapy-level">
+      <p class="therapy-label">Выбери уровень терапии:</p>
+      <div class="therapy-buttons" id="therapyButtons">
+        <button data-level="3" class="active">освобождающая</button>
+        <button data-level="2">трансформирующая</button>
+        <button data-level="1">поддерживающая</button>
+        <button data-level="0">дающая шанс</button>
+      </div>
+    </div>
+
+    <div class="result-area" id="resultArea">
+      <p class="result-text" id="resultText"></p>
+    </div>
+
+    <p class="counter" id="counter"></p>
+
+  </div>
+
+  <script src="generator.js"></script>
+  <script>
+    // ── Состояние ──
+    let profanityLevel = 3;
+    let genCount = 0;
+
+    // ── Уровень терапии ──
+    const therapyButtons = document.querySelectorAll('#therapyButtons button');
+    therapyButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        therapyButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        profanityLevel = parseInt(btn.dataset.level);
+      });
+    });
+
+    // ── Генерация ──
+    const inputEl = document.getElementById('userInput');
+    const btnEl = document.getElementById('generateBtn');
+    const resultArea = document.getElementById('resultArea');
+    const resultText = document.getElementById('resultText');
+    const counterEl = document.getElementById('counter');
+
+    async function handleGenerate() {
+      const raw = inputEl.value.trim();
+      if (!raw) {
+        shakeInput();
+        return;
+      }
+
+      btnEl.disabled = true;
+      btnEl.textContent = '...';
+      resultArea.classList.remove('visible');
+
+      try {
+        const result = await generate(raw, profanityLevel);
+
+        const highlighted = highlightUserPhrase(result, raw);
+        resultText.innerHTML = highlighted;
+
+        setTimeout(() => {
+          resultArea.classList.add('visible');
+        }, 50);
+
+        genCount++;
+        counterEl.textContent = `генераций: ${genCount}`;
+
+      } catch (err) {
+        resultText.textContent = 'Что-то сломалось. Попробуй ещё раз.';
+        resultArea.classList.add('visible');
+        console.error(err);
+      }
+
+      btnEl.disabled = false;
+      btnEl.textContent = 'Лечите меня снова';
+    }
+
+    function highlightUserPhrase(text, raw) {
+      // Ищем ПОСЛЕДНЮЮ пару «», потому что фраза пользователя всегда в конце,
+      // а в теле предложения могут быть свои кавычки (например «блядь»)
+      const lastOpen = text.lastIndexOf('«');
+      const lastClose = text.lastIndexOf('»');
+      if (lastOpen !== -1 && lastClose > lastOpen) {
+        const before = text.slice(0, lastOpen);
+        const quoted = text.slice(lastOpen + 1, lastClose);
+        const after = text.slice(lastClose + 1);
+        return escapeHtml(before) +
+          '«<span class="user-phrase">' + escapeHtml(quoted) + '</span>»' +
+          escapeHtml(after);
+      }
+      return escapeHtml(text);
+    }
+
+    function escapeHtml(s) {
+      const div = document.createElement('div');
+      div.textContent = s;
+      return div.innerHTML;
+    }
+
+    function shakeInput() {
+      inputEl.style.borderColor = '#c27a4a';
+      inputEl.style.transition = 'none';
+      inputEl.style.transform = 'translateX(-6px)';
+      setTimeout(() => {
+        inputEl.style.transition = 'transform 0.1s';
+        inputEl.style.transform = 'translateX(6px)';
+      }, 50);
+      setTimeout(() => {
+        inputEl.style.transform = 'translateX(-3px)';
+      }, 100);
+      setTimeout(() => {
+        inputEl.style.transform = 'translateX(0)';
+      }, 150);
+      setTimeout(() => {
+        inputEl.style.borderColor = '#d1c8c0';
+      }, 600);
+    }
+
+    inputEl.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        handleGenerate();
+      }
+    });
+  </script>
+
+</body>
+</html>

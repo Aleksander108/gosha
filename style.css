@@ -1,0 +1,229 @@
+/* ─────────────────────────────────────────────
+   Гоша — генератор рефрейминга
+   Спокойная тёплая тема
+   ───────────────────────────────────────────── */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f0eb;
+  color: #2d2926;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+/* ── Контейнер ── */
+
+.container {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ── Заголовок ── */
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #3a3330;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #7a706a;
+  text-align: center;
+  line-height: 1.6;
+  margin-top: 4px;
+}
+
+/* ── Поле ввода ── */
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 72px;
+  padding: 14px 16px;
+  font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.05rem;
+  background: #fff;
+  color: #2d2926;
+  border: 1.5px solid #d1c8c0;
+  border-radius: 12px;
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+textarea:focus {
+  border-color: #7aab92;
+  box-shadow: 0 0 0 3px rgba(122, 171, 146, 0.15);
+}
+
+textarea::placeholder {
+  color: #b0a69e;
+}
+
+/* ── Кнопка ── */
+
+button.generate-btn {
+  width: 100%;
+  padding: 14px 24px;
+  font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #fff;
+  background: #5b8a72;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+button.generate-btn:hover {
+  background: #6b9a82;
+}
+
+button.generate-btn:active {
+  transform: scale(0.98);
+  background: #4d7a64;
+}
+
+button.generate-btn:disabled {
+  background: #c4b9ad;
+  color: #f5f0eb;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ── Уровень терапии ── */
+
+.therapy-level {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.therapy-label {
+  font-size: 0.85rem;
+  color: #7a706a;
+}
+
+.therapy-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.therapy-buttons button {
+  padding: 7px 14px;
+  font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: #7a706a;
+  background: #fff;
+  border: 1.5px solid #d1c8c0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.therapy-buttons button.active {
+  color: #fff;
+  background: #5b8a72;
+  border-color: #5b8a72;
+}
+
+.therapy-buttons button:hover:not(.active) {
+  color: #3a3330;
+  border-color: #a89e96;
+}
+
+/* ── Зона результата ── */
+
+.result-area {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px;
+  background: #fff;
+  border: 1px solid #e2dbd5;
+  border-radius: 12px;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.result-area.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.result-text {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: #2d2926;
+  text-align: center;
+  word-break: break-word;
+}
+
+.result-text .user-phrase {
+  color: #c27a4a;
+  font-weight: 600;
+}
+
+/* ── Счётчик ── */
+
+.counter {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #c4b9ad;
+}
+
+/* ── Мобилки ── */
+
+@media (max-width: 480px) {
+  body {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  textarea {
+    font-size: 1rem;
+    min-height: 64px;
+    padding: 12px;
+  }
+
+  button.generate-btn {
+    font-size: 1rem;
+    padding: 13px 20px;
+  }
+
+  .result-text {
+    font-size: 1rem;
+  }
+}
