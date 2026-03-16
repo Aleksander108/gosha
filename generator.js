@@ -290,6 +290,15 @@ function buildCandidate(family, data, worldPack, history, profanityLevel, quoted
     if (ampResult.id) usedIds.push(ampResult.id);
   }
 
+  // Опционально добавляем «Такая хуйня.» отдельным предложением в конец
+  // На уровне 3 — в 30% случаев, на 2 — в 15%
+  if (profanityLevel >= 2) {
+    const thChance = profanityLevel >= 3 ? 0.30 : 0.15;
+    if (Math.random() < thChance) {
+      text = text.replace(/\.$/, '') + '. Такая хуйня.';
+    }
+  }
+
   // Убедимся что первая буква — заглавная
   text = text.charAt(0).toUpperCase() + text.slice(1);
 

@@ -8714,15 +8714,6 @@
         "weight": 3.0
       },
       {
-        "id": "amp03",
-        "text": "такая хуйня",
-        "tags": [
-          "core"
-        ],
-        "profanity": 2,
-        "weight": 2.5
-      },
-      {
         "id": "amp04",
         "text": "сука",
         "tags": [
@@ -8856,24 +8847,6 @@
         ],
         "profanity": 2,
         "weight": 1.0
-      },
-      {
-        "id": "amp20",
-        "text": "такая хуйня",
-        "tags": [
-          "core"
-        ],
-        "profanity": 2,
-        "weight": 2.0
-      },
-      {
-        "id": "amp21",
-        "text": "пиздато",
-        "tags": [
-          "filler"
-        ],
-        "profanity": 2,
-        "weight": 1.5
       },
       {
         "id": "amp22",
