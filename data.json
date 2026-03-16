@@ -76,7 +76,7 @@
     {
       "id": "science",
       "name": "НАУЧНАЯ АНОМАЛИЯ",
-      "template": "В отчёте {institution} {record_verb} аномалию, описанную как: «{input}».",
+      "template": "В отчёте {institution} {record_verb}: «{input}».",
       "required_slots": [
         "institution",
         "record_verb"
@@ -2441,7 +2441,7 @@
     "find_verb": [
       {
         "id": "fv01",
-        "text": "откопали",
+        "text": "какие-то археологи откопали",
         "tags": [
           "archaeology"
         ],
@@ -2452,7 +2452,8 @@
         "id": "fv02",
         "text": "нашли",
         "tags": [
-          "general"
+          "archaeology",
+          "urban"
         ],
         "tone": "neutral",
         "profanity": 0
@@ -2461,67 +2462,63 @@
         "id": "fv03",
         "text": "обнаружили",
         "tags": [
-          "general",
-          "bureaucratic"
+          "archaeology"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "fv04",
-        "text": "выудили",
+        "text": "один рыбак выудил",
         "tags": [
-          "rough"
+          "provincial"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "fv05",
-        "text": "выгребли",
+        "text": "тот самый дворник выгреб",
         "tags": [
-          "rough",
-          "body"
-        ],
-        "tone": "rough",
-        "profanity": 0
-      },
-      {
-        "id": "fv06",
-        "text": "вытащили из-под завала",
-        "tags": [
-          "archaeology",
-          "rough"
-        ],
-        "tone": "rough",
-        "profanity": 0
-      },
-      {
-        "id": "fv07",
-        "text": "случайно наступили на",
-        "tags": [
-          "rough",
+          "urban",
           "domestic"
         ],
         "tone": "rough",
         "profanity": 0
       },
       {
-        "id": "fv08",
-        "text": "отковыряли от стены",
+        "id": "fv06",
+        "text": "спасатели вытащили из-под завала",
         "tags": [
-          "rough",
           "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0
+      },
+      {
+        "id": "fv07",
+        "text": "кто-то случайно наступил на",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0
+      },
+      {
+        "id": "fv08",
+        "text": "один маляр отковырял от стены",
+        "tags": [
+          "urban",
+          "domestic"
         ],
         "tone": "rough",
         "profanity": 0
       },
       {
         "id": "fv09",
-        "text": "извлекли пинцетом",
+        "text": "некий эксперт в перчатках извлёк пинцетом",
         "tags": [
-          "science",
-          "bureaucratic"
+          "science"
         ],
         "tone": "neutral",
         "profanity": 0
@@ -2530,27 +2527,23 @@
         "id": "fv10",
         "text": "выблевал пылесос",
         "tags": [
-          "domestic",
-          "rough",
-          "absurd"
+          "domestic"
         ],
         "tone": "rough",
         "profanity": 0
       },
       {
         "id": "fv11",
-        "text": "принесла бродячая собака",
+        "text": "принесла чья-то собака",
         "tags": [
-          "urban",
-          "rough",
-          "animal"
+          "urban"
         ],
         "tone": "rough",
         "profanity": 0
       },
       {
         "id": "fv12",
-        "text": "достали из-за унитаза",
+        "text": "один сантехник, матерясь, достал из-за унитаза",
         "tags": [
           "domestic",
           "rough"
@@ -2560,8 +2553,9 @@
       },
       {
         "id": "fv13",
-        "text": "выковыряли нахуй",
+        "text": "какой-то мужик выковырял нахуй",
         "tags": [
+          "urban",
           "rough"
         ],
         "tone": "rough",
@@ -2569,10 +2563,10 @@
       },
       {
         "id": "fv14",
-        "text": "вытряхнули из какой-то пиздецовой кучи",
+        "text": "один бомж вытряхнул из пиздецовой кучи",
         "tags": [
-          "rough",
-          "urban"
+          "urban",
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2
@@ -2581,6 +2575,7 @@
         "id": "fv15",
         "text": "нашли хуй пойми где",
         "tags": [
+          "urban",
           "rough"
         ],
         "tone": "rough",
@@ -2588,10 +2583,10 @@
       },
       {
         "id": "fv16",
-        "text": "охуительно аккуратно извлекли",
+        "text": "некий криминалист охуительно аккуратно извлёк",
         "tags": [
-          "rough",
-          "science"
+          "urban",
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2
@@ -2771,7 +2766,7 @@
     "entry_verb": [
       {
         "id": "ev01",
-        "text": "вписали",
+        "text": "чья-то рука вписала",
         "tags": [
           "bureaucratic"
         ],
@@ -2780,7 +2775,7 @@
       },
       {
         "id": "ev02",
-        "text": "внесли отдельной строкой",
+        "text": "кто-то внёс отдельной строкой",
         "tags": [
           "bureaucratic"
         ],
@@ -2789,57 +2784,52 @@
       },
       {
         "id": "ev03",
-        "text": "зафиксировали",
+        "text": "один инспектор молча зафиксировал",
         "tags": [
-          "bureaucratic",
-          "science"
+          "bureaucratic"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "ev04",
-        "text": "от руки дописали",
+        "text": "некий человек дописал карандашом",
         "tags": [
-          "bureaucratic",
-          "rough"
+          "bureaucratic"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "ev05",
-        "text": "впихнули между пунктами",
+        "text": "кто-то впихнул между пунктами",
         "tags": [
-          "bureaucratic",
-          "rough"
+          "bureaucratic"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "ev06",
-        "text": "криво приписали на полях",
+        "text": "чья-то рука криво приписала на полях",
         "tags": [
-          "bureaucratic",
-          "rough"
+          "bureaucratic"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "ev07",
-        "text": "поверх зачёркнутого вывели",
+        "text": "поверх зачёркнутого кто-то вывел",
         "tags": [
-          "bureaucratic",
-          "rough"
+          "bureaucratic"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "ev08",
-        "text": "подчеркнули красным и обвели",
+        "text": "тот самый начальник подчеркнул красным и обвёл три раза",
         "tags": [
           "bureaucratic"
         ],
@@ -2848,17 +2838,16 @@
       },
       {
         "id": "ev09",
-        "text": "вклеили на отдельном листочке",
+        "text": "одна секретарша вклеила на отдельном листочке",
         "tags": [
-          "bureaucratic",
-          "rough"
+          "bureaucratic"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "ev10",
-        "text": "хуйнули в последний абзац",
+        "text": "кто-то хуйнул в последний абзац",
         "tags": [
           "bureaucratic",
           "rough"
@@ -2868,7 +2857,7 @@
       },
       {
         "id": "ev11",
-        "text": "ебанули прямо в середину",
+        "text": "какой-то завхоз ебанул прямо в середину",
         "tags": [
           "bureaucratic",
           "rough"
@@ -2878,7 +2867,7 @@
       },
       {
         "id": "ev12",
-        "text": "впиздячили без согласования",
+        "text": "один стажёр впиздячил без согласования",
         "tags": [
           "bureaucratic",
           "rough"
@@ -3108,18 +3097,18 @@
     "record_verb": [
       {
         "id": "rv01",
-        "text": "зафиксировали",
+        "text": "один лаборант зафиксировал единственную аномалию",
         "tags": [
-          "science",
-          "bureaucratic"
+          "science"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "rv02",
-        "text": "внесли в реестр",
+        "text": "некий практикант от руки вписал в реестр одну запись",
         "tags": [
+          "science",
           "bureaucratic"
         ],
         "tone": "neutral",
@@ -3127,19 +3116,18 @@
       },
       {
         "id": "rv03",
-        "text": "описали сухим языком",
+        "text": "кто-то сухим канцелярским языком описал единственный феномен",
         "tags": [
-          "bureaucratic",
-          "science"
+          "bureaucratic"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "rv04",
-        "text": "задокументировали с пометкой ёбаный стыд",
+        "text": "один из учёных, уже собираясь домой, задокументировал с пометкой ёбаный стыд",
         "tags": [
-          "bureaucratic",
+          "science",
           "rough"
         ],
         "tone": "rough",
@@ -3147,9 +3135,9 @@
       },
       {
         "id": "rv05",
-        "text": "занесли под грифом совершенно охуеть",
+        "text": "какой-то дежурный занёс под грифом совершенно охуеть",
         "tags": [
-          "bureaucratic",
+          "science",
           "rough"
         ],
         "tone": "rough",
@@ -3157,49 +3145,44 @@
       },
       {
         "id": "rv06",
-        "text": "включили в перечень необъяснимых явлений",
+        "text": "комиссия из трёх человек единогласно записала одно",
         "tags": [
-          "science",
-          "mystical"
+          "bureaucratic"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "rv07",
-        "text": "замяли, но в архиве осталась запись",
+        "text": "начальство замяло, но чья-то рука успела записать в архив",
         "tags": [
-          "bureaucratic",
-          "rough"
+          "bureaucratic"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "rv08",
-        "text": "каталогизировали под номером 666",
+        "text": "один каталогизатор присвоил номер 666 и молча записал",
         "tags": [
-          "bureaucratic",
-          "mystical",
-          "absurd"
+          "science"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "rv09",
-        "text": "занесли в реестр под грифом ебать мои глаза",
+        "text": "тот самый стажёр, которого потом уволили, занёс под грифом ебать мои глаза",
         "tags": [
-          "bureaucratic",
+          "science",
           "rough"
         ],
         "tone": "rough",
-        "profanity": 3,
-        "absurdity": 0.9
+        "profanity": 3
       },
       {
         "id": "rv10",
-        "text": "задокументировали как невъебенный феномен",
+        "text": "некий профессор задокументировал как невъебенный феномен",
         "tags": [
           "science",
           "rough"
@@ -3209,10 +3192,9 @@
       },
       {
         "id": "rv11",
-        "text": "охуительно подробно описали",
+        "text": "один аспирант, которого никто не слушал, охуительно подробно описал",
         "tags": [
           "science",
-          "bureaucratic",
           "rough"
         ],
         "tone": "rough",
@@ -4796,9 +4778,9 @@
     "discover_verb": [
       {
         "id": "dv01",
-        "text": "обнаружили",
+        "text": "один студент обнаружил",
         "tags": [
-          "general"
+          "literary"
         ],
         "tone": "neutral",
         "profanity": 0
@@ -4807,34 +4789,34 @@
         "id": "dv02",
         "text": "нашли",
         "tags": [
-          "general"
+          "literary"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "dv03",
-        "text": "раскопали",
+        "text": "некий архивист раскопал",
         "tags": [
-          "archaeology"
+          "literary"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "dv04",
-        "text": "случайно наткнулись на",
+        "text": "один исследователь случайно наткнулся на",
         "tags": [
-          "general"
+          "literary",
+          "science"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "dv05",
-        "text": "восстановили",
+        "text": "тот самый реставратор восстановил",
         "tags": [
-          "science",
           "literary"
         ],
         "tone": "neutral",
