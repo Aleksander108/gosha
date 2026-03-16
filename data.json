@@ -2210,260 +2210,226 @@
       },
       {
         "id": "qb02",
-        "text": "значилось",
+        "text": "было выцарапано гвоздём",
         "tags": [
-          "inscription",
-          "bureaucratic"
+          "inscription"
         ],
-        "tone": "neutral",
+        "tone": "rough",
         "profanity": 0
       },
       {
         "id": "qb03",
-        "text": "читалось",
+        "text": "было выведено дрожащей рукой",
         "tags": [
-          "inscription",
-          "ancient_text"
+          "inscription"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "qb04",
-        "text": "было выцарапано гвоздём",
+        "text": "было намалёвано кровью",
         "tags": [
-          "inscription",
-          "rough"
+          "inscription"
         ],
         "tone": "rough",
         "profanity": 0
       },
       {
         "id": "qb05",
-        "text": "было выведено дрожащей рукой",
+        "text": "было наколото синей тушью",
         "tags": [
-          "inscription",
-          "literary"
+          "inscription"
         ],
-        "tone": "neutral",
+        "tone": "rough",
         "profanity": 0
       },
       {
         "id": "qb06",
-        "text": "красовалась надпись",
+        "text": "было набито ровным тюремным шрифтом",
         "tags": [
-          "inscription",
-          "urban"
+          "inscription"
         ],
-        "tone": "neutral",
+        "tone": "rough",
         "profanity": 0
       },
       {
         "id": "qb07",
-        "text": "кто-то нахуярил маркером",
+        "text": "кто-то старательно вывел губной помадой",
         "tags": [
-          "inscription",
-          "rough"
-        ],
-        "tone": "rough",
-        "profanity": 2
-      },
-      {
-        "id": "qb08",
-        "text": "было намалёвано кровью",
-        "tags": [
-          "inscription",
-          "rough",
-          "body"
-        ],
-        "tone": "rough",
-        "profanity": 0
-      },
-      {
-        "id": "qb09",
-        "text": "проступили буквы",
-        "tags": [
-          "inscription",
-          "mystical"
+          "inscription"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
-        "id": "qb10",
-        "text": "еле читалось",
+        "id": "qb08",
+        "text": "проявилось при ультрафиолете",
         "tags": [
-          "inscription",
+          "inscription"
+        ],
+        "tone": "neutral",
+        "profanity": 0
+      },
+      {
+        "id": "qb09",
+        "text": "было нацарапано ногтем",
+        "tags": [
+          "inscription"
+        ],
+        "tone": "rough",
+        "profanity": 0
+      },
+      {
+        "id": "qb10",
+        "text": "было выжжено паяльником",
+        "tags": [
+          "inscription"
+        ],
+        "tone": "rough",
+        "profanity": 0
+      },
+      {
+        "id": "qb11",
+        "text": "мерцало неоном",
+        "tags": [
+          "inscription"
+        ],
+        "tone": "neutral",
+        "profanity": 0
+      },
+      {
+        "id": "qb12",
+        "text": "сохранилась единственная разборчивая строка",
+        "tags": [
           "ancient_text"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
-        "id": "qb11",
-        "text": "было наколото синей тушью",
-        "tags": [
-          "inscription",
-          "body",
-          "rough"
-        ],
-        "tone": "rough",
-        "profanity": 0
-      },
-      {
-        "id": "qb12",
-        "text": "было набито ровным тюремным шрифтом",
-        "tags": [
-          "inscription",
-          "rough"
-        ],
-        "tone": "rough",
-        "profanity": 0
-      },
-      {
         "id": "qb13",
-        "text": "вилась каллиграфическая надпись",
+        "text": "стояла единственная фраза",
         "tags": [
-          "inscription",
-          "literary"
+          "ancient_text"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "qb14",
-        "text": "красовалось слово «блядь», а следом",
+        "text": "отпечаталось задом наперёд",
         "tags": [
-          "inscription",
-          "rough"
+          "inscription"
         ],
-        "tone": "rough",
-        "profanity": 2
+        "tone": "neutral",
+        "profanity": 0
       },
       {
         "id": "qb15",
-        "text": "было выбито зубилом",
+        "text": "медленно проступили буквы",
         "tags": [
-          "inscription",
-          "rough",
-          "ancient_text"
+          "inscription"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "qb16",
-        "text": "кто-то старательно вывел губной помадой",
+        "text": "шла приписка, сделанная чужим почерком",
         "tags": [
-          "inscription",
-          "urban",
-          "rough"
+          "inscription"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "qb17",
-        "text": "проявилось при ультрафиолете",
+        "text": "было написано детским почерком",
         "tags": [
-          "inscription",
-          "science",
-          "mystical"
+          "inscription"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "qb18",
-        "text": "было нацарапано ногтем",
+        "text": "кто-то нацарапал, видимо в спешке",
         "tags": [
-          "inscription",
-          "body",
-          "rough"
+          "inscription"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "qb19",
-        "text": "было выжжено паяльником",
+        "text": "было вырезано ножом — глубоко, с нажимом",
         "tags": [
-          "inscription",
-          "rough"
+          "inscription"
         ],
         "tone": "rough",
         "profanity": 0
       },
       {
         "id": "qb20",
-        "text": "стояла единственная фраза",
+        "text": "проступило само — никто не писал",
         "tags": [
-          "inscription",
-          "bureaucratic"
+          "inscription"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "qb21",
-        "text": "отпечаталось задом наперёд",
+        "text": "было выведено идеально ровно, без единой ошибки",
         "tags": [
-          "inscription",
-          "mystical",
-          "absurd"
+          "inscription"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "qb22",
-        "text": "мерцало неоном",
+        "text": "кто-то вывел углём",
         "tags": [
-          "inscription",
-          "urban",
-          "signal"
+          "inscription"
         ],
-        "tone": "neutral",
+        "tone": "rough",
         "profanity": 0
       },
       {
         "id": "qb23",
+        "text": "было выбито зубилом",
+        "tags": [
+          "inscription"
+        ],
+        "tone": "rough",
+        "profanity": 0
+      },
+      {
+        "id": "qb24",
         "text": "было аккуратно выведено говном",
         "tags": [
           "inscription",
-          "body",
-          "rough"
+          "body"
         ],
         "tone": "rough",
         "profanity": 1
       },
       {
-        "id": "qb24",
-        "text": "шла приписка от руки",
-        "tags": [
-          "inscription",
-          "bureaucratic"
-        ],
-        "tone": "neutral",
-        "profanity": 0
-      },
-      {
         "id": "qb25",
-        "text": "сохранилась единственная разборчивая строка",
+        "text": "кто-то нахуярил маркером",
         "tags": [
-          "inscription",
-          "ancient_text"
+          "inscription"
         ],
-        "tone": "neutral",
-        "profanity": 0
+        "tone": "rough",
+        "profanity": 2
       },
       {
         "id": "qb26",
         "text": "было нахуячено краской из баллончика",
         "tags": [
-          "inscription",
-          "rough",
-          "urban"
+          "inscription"
         ],
         "tone": "rough",
         "profanity": 2
@@ -2472,8 +2438,7 @@
         "id": "qb27",
         "text": "криво наебенили",
         "tags": [
-          "inscription",
-          "rough"
+          "inscription"
         ],
         "tone": "rough",
         "profanity": 2
@@ -2482,61 +2447,25 @@
         "id": "qb28",
         "text": "хуйнули от души",
         "tags": [
-          "inscription",
-          "rough"
+          "inscription"
         ],
         "tone": "rough",
         "profanity": 2
       },
       {
         "id": "qb29",
-        "text": "было охуенно выведено каллиграфическим почерком",
+        "text": "невъебенно мелкими буквами значилось",
         "tags": [
-          "inscription",
-          "rough",
-          "literary"
+          "inscription"
         ],
         "tone": "rough",
         "profanity": 2
       },
       {
         "id": "qb30",
-        "text": "красовалась ебанутая надпись",
+        "text": "сначала шло слово блядь, а дальше",
         "tags": [
-          "inscription",
-          "rough",
-          "urban"
-        ],
-        "tone": "rough",
-        "profanity": 2
-      },
-      {
-        "id": "qb31",
-        "text": "охуенно ровным почерком было выведено",
-        "tags": [
-          "inscription",
-          "rough"
-        ],
-        "tone": "rough",
-        "profanity": 2
-      },
-      {
-        "id": "qb32",
-        "text": "невъебенно мелкими буквами значилось",
-        "tags": [
-          "inscription",
-          "rough",
-          "ancient_text"
-        ],
-        "tone": "rough",
-        "profanity": 2
-      },
-      {
-        "id": "qb33",
-        "text": "пиздато сохранилась надпись",
-        "tags": [
-          "inscription",
-          "rough"
+          "inscription"
         ],
         "tone": "rough",
         "profanity": 2
@@ -5528,54 +5457,60 @@
     "anecdote_setup": [
       {
         "id": "ank01",
-        "text": "Вовочка встал посреди урока, подошёл к доске и написал",
+        "text": "Вовочка встал посреди урока. Все замолчали. На доске он написал одно",
         "tags": [
-          "domestic",
-          "rough"
+          "urban"
         ],
-        "tone": "rough",
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank02",
+        "text": "Вовочка вернулся из школы. Швырнул портфель. Мать спросила, как дела. Он ответил",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.6
       },
       {
-        "id": "ank02",
-        "text": "Вовочка пришёл домой, швырнул портфель и сказал маме",
-        "tags": [
-          "domestic",
-          "rough"
-        ],
-        "tone": "rough",
-        "profanity": 0,
-        "absurdity": 0.5
-      },
-      {
         "id": "ank03",
-        "text": "Учительница спросила Вовочку что такое любовь, и Вовочка без запинки выдал",
+        "text": "Учительница спросила, что такое любовь. Вовочка не задумался ни на секунду",
         "tags": [
-          "domestic",
-          "rough"
+          "urban"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.7
       },
       {
         "id": "ank04",
-        "text": "Вовочка на выпускном взял микрофон и охуенно торжественно объявил",
+        "text": "Вовочка дожил до выпускного, взял микрофон и сказал единственное, чему научился за одиннадцать лет",
         "tags": [
-          "domestic",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "ank23",
+        "text": "Вовочка нарисовал на заборе хуй. Подумал. Подписал",
+        "tags": [
+          "urban",
           "rough"
         ],
         "tone": "rough",
-        "profanity": 2,
+        "profanity": 1,
         "absurdity": 0.7
       },
       {
         "id": "ank05",
-        "text": "Петька прибежал к Чапаеву, весь в говне, и заорал",
+        "text": "Петька прибежал к Чапаеву. Весь в говне. Чапаев даже не посмотрел. Петька всё равно сказал",
         "tags": [
-          "rough",
-          "body"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 1,
@@ -5583,10 +5518,9 @@
       },
       {
         "id": "ank06",
-        "text": "Василий Иванович допил самогон, крякнул и философски изрёк",
+        "text": "Василий Иванович допил. Крякнул. Долго молчал. Потом сказал",
         "tags": [
-          "rough",
-          "provincial"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0,
@@ -5594,30 +5528,39 @@
       },
       {
         "id": "ank07",
-        "text": "Чапаев посмотрел на карту, выругался и сказал Петьке",
+        "text": "Чапаев долго смотрел на карту. Карта не помогла. Он сказал Петьке единственное, что знал точно",
         "tags": [
           "rough"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "ank08",
-        "text": "Петька спросил Чапаева в чём смысл жизни, и тот, не думая, ответил",
+        "text": "Петька спросил Чапаева про смысл жизни. Тот посмотрел на реку, потом на Петьку и ответил",
         "tags": [
           "rough"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank24",
+        "text": "Петька и Чапаев сидели в окопе. Стреляли. Молчали. На третий день Петька сказал",
+        "tags": [
+          "rough"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
       },
       {
         "id": "ank12",
-        "text": "Поручик Ржевский встал из-за карточного стола, рыгнул и объявил",
+        "text": "Поручик Ржевский проиграл всё. Встал из-за стола. Рыгнул. И сказал",
         "tags": [
-          "rough",
-          "body"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 1,
@@ -5625,53 +5568,50 @@
       },
       {
         "id": "ank13",
-        "text": "На балу поручик Ржевский подошёл к даме и с невъебенной галантностью заявил",
+        "text": "На балу поручик Ржевский подошёл к даме. Дама ждала комплимент. Получила другое",
         "tags": [
-          "rough",
-          "literary"
+          "rough"
         ],
-        "tone": "rough",
-        "profanity": 2,
+        "tone": "neutral",
+        "profanity": 0,
         "absurdity": 0.8
       },
       {
         "id": "ank14",
-        "text": "Поручик Ржевский достал саблю, посмотрел на своё отражение и пробормотал",
+        "text": "Поручик Ржевский достал саблю и увидел в ней своё отражение. Отражение сказало",
         "tags": [
-          "rough"
+          "philosophical"
         ],
-        "tone": "rough",
-        "profanity": 0,
-        "absurdity": 0.6
-      },
-      {
-        "id": "ank15",
-        "text": "Винни-Пух застрял в норе, три часа матерился, потом успокоился и сказал Пятачку",
-        "tags": [
-          "rough",
-          "domestic"
-        ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.8
       },
       {
-        "id": "ank16",
-        "text": "Пятачок посмотрел на Винни-Пуха снизу вверх и жалобно пропищал",
+        "id": "ank15",
+        "text": "Винни-Пух застрял в норе. Три часа матерился. Потом затих. Пятачок подошёл. Пух посмотрел на него и тихо сказал",
         "tags": [
-          "rough",
-          "domestic"
+          "urban"
         ],
-        "tone": "rough",
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank16",
+        "text": "Пятачок посмотрел на Винни-Пуха снизу вверх. Долго смотрел. Потом пропищал единственное, что знал",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.7
       },
       {
         "id": "ank17",
-        "text": "Винни-Пух сожрал весь мёд, посмотрел на пустой горшок и охуенно грустно сказал",
+        "text": "Винни-Пух сожрал весь мёд. Горшок пустой. Он охуел от пустоты и увидел на дне единственное",
         "tags": [
-          "rough",
-          "domestic"
+          "urban",
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2,
@@ -5679,64 +5619,39 @@
       },
       {
         "id": "ank18",
-        "text": "Колобок катился по тропинке, встретил лису, послал её нахуй и покатился дальше со словами",
+        "text": "Колобок от всех ушёл. От бабки, от деда, от волка, от лисы. Но одна мысль катилась за ним",
         "tags": [
-          "rough",
-          "provincial"
+          "philosophical"
         ],
-        "tone": "rough",
-        "profanity": 2,
-        "absurdity": 0.9
-      },
-      {
-        "id": "ank19",
-        "text": "Колобок от всех съебался, сел на пенёк, задумался и сказал в пустоту",
-        "tags": [
-          "rough",
-          "provincial"
-        ],
-        "tone": "rough",
-        "profanity": 2,
+        "tone": "neutral",
+        "profanity": 0,
         "absurdity": 0.8
       },
       {
-        "id": "ank20",
-        "text": "Лягушка поймала стрелу, охуела и вместо «возьми меня замуж» выдала",
+        "id": "ank19",
+        "text": "Колобок от всех съебался. Сел на пенёк. Лес, тишина. Единственное, что он мог сказать",
         "tags": [
           "rough"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.9
-      },
-      {
-        "id": "ank23",
-        "text": "Вовочка нарисовал на заборе хуй и подписал",
-        "tags": [
-          "rough",
-          "body",
-          "urban"
-        ],
-        "tone": "rough",
-        "profanity": 1,
         "absurdity": 0.7
       },
       {
-        "id": "ank24",
-        "text": "Петька и Василий Иванович сидели в окопе, молчали, и Петька вдруг выдал",
+        "id": "ank20",
+        "text": "Лягушка поймала стрелу. Открыла рот, чтобы сказать про замуж. Но вышло другое",
         "tags": [
-          "rough"
+          "philosophical"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.8
       },
       {
         "id": "ank26",
-        "text": "Кощей Бессмертный сидел над златом, чесал яйца и бормотал",
+        "text": "Кощей сидел над златом. Золота — горы. Счастья — ноль. Почесал яйцо и сказал",
         "tags": [
-          "rough",
-          "body"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 1,
@@ -5744,9 +5659,10 @@
       },
       {
         "id": "ank27",
-        "text": "Кощей Бессмертный сломал иглу, охуел и заявил",
+        "text": "Кощей сломал свою иглу. Охуел. Стал смертным. Первое, что он сказал",
         "tags": [
-          "rough"
+          "rough",
+          "philosophical"
         ],
         "tone": "rough",
         "profanity": 2,
@@ -5754,21 +5670,19 @@
       },
       {
         "id": "ank28",
-        "text": "Кощей посмотрел на своё отражение в зеркале, заплакал и прошептал",
+        "text": "Кощей Бессмертный посмотрел в зеркало. Вечность смотрела в ответ. Он прошептал",
         "tags": [
-          "rough",
-          "dramatic"
+          "philosophical"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.7
+        "absurdity": 0.8
       },
       {
         "id": "ank29",
-        "text": "Баба Яга вышла из избушки, сплюнула и проорала на весь лес",
+        "text": "Баба Яга вышла из избушки. Лес замолчал. Она сплюнула и проорала",
         "tags": [
-          "rough",
-          "provincial"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0,
@@ -5776,84 +5690,70 @@
       },
       {
         "id": "ank30",
-        "text": "Баба Яга села в ступу, разогналась, врезалась в берёзу и пока лежала в кустах прохрипела",
-        "tags": [
-          "rough",
-          "provincial"
-        ],
-        "tone": "rough",
-        "profanity": 0,
-        "absurdity": 0.8
-      },
-      {
-        "id": "ank31",
-        "text": "Баба Яга поймала Иванушку-дурачка за жопу и ласково сказала",
-        "tags": [
-          "rough",
-          "body"
-        ],
-        "tone": "rough",
-        "profanity": 1,
-        "absurdity": 0.8
-      },
-      {
-        "id": "ank32",
-        "text": "Кощей и Баба Яга бухали три дня, на четвёртый Яга подняла рюмку и выдала тост",
+        "text": "Баба Яга врезалась на ступе в берёзу. Лежала в кустах, смотрела в небо и хрипела",
         "tags": [
           "rough"
         ],
         "tone": "rough",
         "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank31",
+        "text": "Баба Яга поймала Иванушку. Он ждал смерти. Но она посмотрела на него как мать и сказала",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
         "absurdity": 0.8
       },
       {
-        "id": "ank33",
-        "text": "Начальник вызвал всех на планёрку, встал, снял штаны и зачитал с листа",
+        "id": "ank32",
+        "text": "Кощей и Баба Яга бухали три дня. На четвёртый осталась одна рюмка. Яга подняла её и произнесла тост",
         "tags": [
-          "rough",
-          "body",
-          "urban"
+          "rough"
         ],
         "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank33",
+        "text": "Начальник вызвал всех на совещание. Встал. Снял штаны. Никто не удивился. Он зачитал",
+        "tags": [
+          "urban",
+          "bureaucracy"
+        ],
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.9
       },
       {
         "id": "ank34",
-        "text": "Секретарша уронила папку, оттуда выпал единственный лист с текстом",
+        "text": "Секретарша уронила папку. Выпал единственный лист. Там было",
         "tags": [
-          "urban"
+          "urban",
+          "bureaucracy"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "ank35",
-        "text": "Бухгалтерша закрыла квартальный отчёт, выдохнула и написала заявление об увольнении со словами",
+        "text": "Бухгалтерша закрыла квартальный отчёт. Двадцать лет цифр. Выдохнула и написала заявление. Причина",
         "tags": [
           "urban",
-          "rough"
+          "bureaucracy"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.7
       },
       {
         "id": "ank36",
-        "text": "Программист три дня не спал, починил баг, и в коммит-сообщении написал",
-        "tags": [
-          "urban",
-          "rough",
-          "domestic"
-        ],
-        "tone": "rough",
-        "profanity": 0,
-        "absurdity": 0.7
-      },
-      {
-        "id": "ank37",
-        "text": "В коде проекта, который пилили восемь лет, нашли комментарий",
+        "text": "Программист не спал три дня. Баг починился. В коммит он написал всё, что понял о жизни",
         "tags": [
           "urban"
         ],
@@ -5862,22 +5762,31 @@
         "absurdity": 0.7
       },
       {
-        "id": "ank38",
-        "text": "Спортсмен пробежал марафон, упал на финише и прохрипел в камеру",
+        "id": "ank37",
+        "text": "Восемь лет проекту. Двести тысяч строк. Один комментарий",
         "tags": [
-          "rough",
-          "body"
+          "urban"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.8
+      },
+      {
+        "id": "ank38",
+        "text": "Спортсмен бежал марафон. На финише упал. Камеры ждали речь. Он прохрипел",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
       },
       {
         "id": "ank39",
-        "text": "Штангист поднял невъебенную штангу, охуел от собственной мощи и заорал",
+        "text": "Штангист поднял невъебенную штангу. Три секунды держал. В эти три секунды он понял всё и заорал",
         "tags": [
-          "rough",
-          "body"
+          "urban",
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2,
@@ -5885,9 +5794,10 @@
       },
       {
         "id": "ank40",
-        "text": "Художник три года писал картину, показал публике, и единственный отзыв был",
+        "text": "Художник три года писал картину. Показал. Зал молчал. Единственный отзыв",
         "tags": [
-          "literary"
+          "urban",
+          "philosophical"
         ],
         "tone": "neutral",
         "profanity": 0,
@@ -5895,62 +5805,62 @@
       },
       {
         "id": "ank41",
-        "text": "Поэт вышел на сцену, откашлялся и с пиздецовым надрывом продекламировал",
+        "text": "Поэт вышел на сцену, откашлялся и с пиздецовым надрывом выдал не стих, а правду",
         "tags": [
-          "literary",
+          "urban",
           "rough"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.7
+        "absurdity": 0.8
       },
       {
         "id": "ank42",
-        "text": "Музыкант настраивал гитару сорок минут, взял первый аккорд и спел",
+        "text": "Музыкант настраивал гитару сорок минут. Зал ждал. Он взял один аккорд и спел единственную строчку",
         "tags": [
           "urban"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "ank43",
-        "text": "Философ думал о смысле жизни семнадцать лет и пришёл к единственному выводу",
+        "text": "Философ думал семнадцать лет. Одна мысль. Семнадцать лет. Вывод",
         "tags": [
-          "literary"
+          "philosophical"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.7
+        "absurdity": 0.8
       },
       {
         "id": "ank44",
-        "text": "Учёные доказали, что залупой тоже можно думать — она подумала и выдала",
+        "text": "Учёные доказали, что залупой тоже можно думать. Залупа подумала. Её первая мысль",
         "tags": [
           "rough",
-          "body",
-          "science"
+          "body"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 1.0
+        "absurdity": 0.9
       },
       {
         "id": "ank45",
-        "text": "Группа учёных из двенадцати стран после двадцати лет исследований опубликовала единственный вывод",
+        "text": "Двенадцать стран. Двадцать лет исследований. Один вывод",
         "tags": [
-          "science"
+          "urban",
+          "philosophical"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.7
+        "absurdity": 0.8
       },
       {
         "id": "ank46",
-        "text": "Британские учёные, блядь, наконец-то доказали главное",
+        "text": "Британские учёные наконец-то, блядь, доказали главное",
         "tags": [
-          "science",
+          "urban",
           "rough"
         ],
         "tone": "rough",
@@ -5959,9 +5869,10 @@
       },
       {
         "id": "ank47",
-        "text": "Нейросеть обработала все знания человечества и выдала единственную фразу",
+        "text": "Нейросеть обработала все знания человечества. Все книги, все мысли, все языки. На выходе — одна фраза",
         "tags": [
-          "science"
+          "urban",
+          "philosophical"
         ],
         "tone": "neutral",
         "profanity": 0,
@@ -5969,65 +5880,67 @@
       },
       {
         "id": "ank48",
-        "text": "Установлен мировой рекорд: мужик орал в пустоту 47 часов подряд одну и ту же фразу",
+        "text": "Мировой рекорд. Мужик орал в пустоту сорок семь часов. Одну фразу",
         "tags": [
-          "rough",
-          "body"
-        ],
-        "tone": "rough",
-        "profanity": 0,
-        "absurdity": 0.9
-      },
-      {
-        "id": "ank49",
-        "text": "В книгу рекордов занесли самую бессмысленную фразу, произнесённую вслух",
-        "tags": [
+          "urban",
           "rough"
         ],
         "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "ank49",
+        "text": "В книгу рекордов занесли самую честную фразу, когда-либо произнесённую вслух",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.8
       },
       {
         "id": "ank50",
-        "text": "Побит рекорд по количеству раз, которые один человек повторил одно и то же — а повторял он",
+        "text": "Один человек повторил одну фразу двенадцать миллионов раз. Рекорд не побит. Фраза",
         "tags": [
-          "rough"
+          "urban"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.8
       },
       {
         "id": "ank51",
-        "text": "План по удлинению хуёв перевыполнен на 300%, на головке самого длинного выгравировано",
+        "text": "План по удлинению хуёв перевыполнен. На головке самого длинного выгравировано мелким шрифтом",
         "tags": [
           "rough",
           "body"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 1.0
+        "absurdity": 0.9
       },
       {
         "id": "ank52",
-        "text": "Пятилетку выполнили за три года, на транспаранте написали",
+        "text": "Пятилетку выполнили за три года. Два года думали, что написать на транспаранте. Написали",
         "tags": [
-          "rough"
+          "urban",
+          "bureaucracy"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.7
+        "absurdity": 0.8
       },
       {
         "id": "ank53",
-        "text": "Отдел по производству пиздюлей отчитался о перевыполнении плана с формулировкой",
+        "text": "Отдел по производству пиздюлей перевыполнил план. В отчёте — одна строка",
         "tags": [
-          "rough"
+          "rough",
+          "bureaucracy"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.9
+        "absurdity": 0.8
       }
     ],
     "animal": [
