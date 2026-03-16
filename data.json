@@ -5554,6 +5554,81 @@
         "tone": "rough",
         "profanity": 0,
         "absurdity": 0.6
+      },
+      {
+        "id": "ank26",
+        "text": "Кощей Бессмертный сидел над златом, чесал яйца и бормотал",
+        "tags": [
+          "rough",
+          "body"
+        ],
+        "tone": "rough",
+        "profanity": 1,
+        "absurdity": 0.8
+      },
+      {
+        "id": "ank27",
+        "text": "Кощей Бессмертный сломал иглу, охуел и заявил",
+        "tags": [
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "ank28",
+        "text": "Кощей посмотрел на своё отражение в зеркале, заплакал и прошептал",
+        "tags": [
+          "rough",
+          "dramatic"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank29",
+        "text": "Баба Яга вышла из избушки, сплюнула и проорала на весь лес",
+        "tags": [
+          "rough",
+          "provincial"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank30",
+        "text": "Баба Яга села в ступу, разогналась, врезалась в берёзу и пока лежала в кустах прохрипела",
+        "tags": [
+          "rough",
+          "provincial"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "ank31",
+        "text": "Баба Яга поймала Иванушку-дурачка за жопу и ласково сказала",
+        "tags": [
+          "rough",
+          "body"
+        ],
+        "tone": "rough",
+        "profanity": 1,
+        "absurdity": 0.8
+      },
+      {
+        "id": "ank32",
+        "text": "Кощей и Баба Яга бухали три дня, на четвёртый Яга подняла рюмку и выдала тост",
+        "tags": [
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
       }
     ],
     "animal": [
