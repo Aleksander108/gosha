@@ -1789,43 +1789,42 @@
       },
       {
         "id": "fig02",
-        "text": "пьяный в сиську сантехник Михалыч",
+        "text": "сантехник Михалыч, пьяный третий день подряд",
         "tags": [
-          "domestic",
-          "rough",
-          "urban"
+          "urban",
+          "rough"
         ],
         "tone": "rough",
-        "profanity": 1,
+        "profanity": 0,
         "absurdity": 0.6
       },
       {
         "id": "fig03",
-        "text": "престарелый бомж-философ",
+        "text": "бомж, читающий Канта у вокзала",
         "tags": [
           "urban",
-          "rough",
-          "literary"
-        ],
-        "tone": "rough",
-        "profanity": 0,
-        "absurdity": 0.7
-      },
-      {
-        "id": "fig04",
-        "text": "главный герой",
-        "tags": [
-          "literary"
+          "philosophical"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.3
+        "absurdity": 0.8
+      },
+      {
+        "id": "fig04",
+        "text": "человек, которого никто не помнит по имени",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
       },
       {
         "id": "fig05",
         "text": "одноглазый завхоз Петрович",
         "tags": [
-          "domestic",
+          "urban",
           "rough"
         ],
         "tone": "rough",
@@ -1837,8 +1836,7 @@
         "text": "облезлый кот с помойки",
         "tags": [
           "urban",
-          "rough",
-          "animal"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0,
@@ -1846,21 +1844,21 @@
       },
       {
         "id": "fig07",
-        "text": "дежурный нарколог",
+        "text": "дежурный нарколог на сорок пятом часу смены",
         "tags": [
-          "rough",
-          "urban"
+          "urban",
+          "science"
         ],
         "tone": "rough",
         "profanity": 0,
-        "absurdity": 0.5
+        "absurdity": 0.7
       },
       {
         "id": "fig08",
         "text": "трижды судимый ассенизатор",
         "tags": [
-          "rough",
-          "urban"
+          "urban",
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0,
@@ -1870,9 +1868,8 @@
         "id": "fig09",
         "text": "таракан, живущий за плитой тридцать лет",
         "tags": [
-          "domestic",
-          "animal",
-          "absurd"
+          "urban",
+          "domestic"
         ],
         "tone": "rough",
         "profanity": 0,
@@ -1880,22 +1877,21 @@
       },
       {
         "id": "fig10",
-        "text": "безымянный графоман из Челябинска",
+        "text": "графоман из Челябинска с двенадцатью неизданными романами",
         "tags": [
-          "literary",
-          "rough",
-          "provincial"
+          "urban",
+          "literary"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.8
       },
       {
         "id": "fig11",
         "text": "кладбищенский сторож Семёныч",
         "tags": [
-          "rough",
-          "urban"
+          "urban",
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0,
@@ -1905,10 +1901,9 @@
         "id": "fig12",
         "text": "учительница труда в состоянии аффекта",
         "tags": [
-          "domestic",
-          "rough"
+          "urban"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.7
       },
@@ -1916,13 +1911,12 @@
         "id": "fig13",
         "text": "крыса из подвала краеведческого музея",
         "tags": [
-          "museum",
-          "animal",
-          "absurd"
+          "urban",
+          "museum"
         ],
         "tone": "rough",
         "profanity": 0,
-        "absurdity": 0.8
+        "absurdity": 0.7
       },
       {
         "id": "fig14",
@@ -1939,16 +1933,16 @@
         "id": "fig15",
         "text": "водитель катафалка на пенсии",
         "tags": [
-          "rough",
-          "urban"
+          "urban",
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "fig16",
-        "text": "какой-то мудак в трениках и шлёпанцах",
+        "text": "мудак в трениках и шлёпанцах",
         "tags": [
           "urban",
           "rough"
@@ -1959,46 +1953,44 @@
       },
       {
         "id": "fig17",
-        "text": "охуевший от жизни пенсионер с авоськой",
+        "text": "пенсионер с авоськой, охуевший от жизни ещё в девяностых",
         "tags": [
           "urban",
           "rough"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "fig18",
-        "text": "местный ёбаный юродивый",
+        "text": "местный юродивый, которого боялась даже полиция",
         "tags": [
           "urban",
-          "rough",
-          "literary"
+          "rough"
         ],
         "tone": "rough",
-        "profanity": 2,
+        "profanity": 0,
         "absurdity": 0.7
       },
       {
         "id": "fig19",
-        "text": "педрила из соседнего подъезда",
+        "text": "сосед, которого все боятся, но никто не знает почему",
         "tags": [
           "urban",
-          "rough",
           "domestic"
         ],
-        "tone": "rough",
-        "profanity": 2,
-        "absurdity": 0.6
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
       },
       {
         "id": "fig20",
         "text": "невъебенно пьяный мужик с третьего этажа",
         "tags": [
-          "domestic",
+          "urban",
           "rough",
-          "urban"
+          "domestic"
         ],
         "tone": "rough",
         "profanity": 2,
@@ -2006,44 +1998,44 @@
       },
       {
         "id": "fig21",
-        "text": "еблан с рынка",
+        "text": "мужик с рынка, торгующий непонятно чем уже третий год",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "fig22",
+        "text": "долбоёб в белом халате, от которого пахло не лекарствами",
         "tags": [
           "urban",
           "rough"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.5
-      },
-      {
-        "id": "fig22",
-        "text": "долбоёб в белом халате",
-        "tags": [
-          "rough",
-          "science"
-        ],
-        "tone": "rough",
-        "profanity": 2,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "fig23",
-        "text": "опизденевший от одиночества лесник",
+        "text": "лесник, не видевший людей семь лет",
         "tags": [
-          "rough",
-          "provincial"
+          "provincial",
+          "rough"
         ],
         "tone": "rough",
-        "profanity": 2,
+        "profanity": 0,
         "absurdity": 0.7
       },
       {
         "id": "fig24",
         "text": "невъебенно старый дед, дрочащий на закат",
         "tags": [
+          "urban",
           "rough",
-          "body",
-          "domestic"
+          "body"
         ],
         "tone": "rough",
         "profanity": 3,
@@ -2051,36 +2043,35 @@
       },
       {
         "id": "fig25",
-        "text": "охуевший от скуки сторож платной парковки",
+        "text": "охуевший от скуки сторож парковки, начавший вести дневник",
         "tags": [
           "urban",
           "rough"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.6
+        "absurdity": 0.8
       },
       {
         "id": "fig26",
         "text": "съебавшийся в леса бывший бухгалтер",
         "tags": [
+          "urban",
           "rough",
           "provincial"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.7
+        "absurdity": 0.8
       },
       {
         "id": "fig27",
-        "text": "охуевший от дедлайнов программист",
+        "text": "программист, не спавший четверо суток подряд",
         "tags": [
-          "urban",
-          "rough",
-          "domestic"
+          "urban"
         ],
-        "tone": "rough",
-        "profanity": 2,
+        "tone": "neutral",
+        "profanity": 0,
         "absurdity": 0.6
       },
       {
@@ -2088,19 +2079,18 @@
         "text": "бухгалтерша с мёртвыми глазами",
         "tags": [
           "urban",
-          "rough",
-          "domestic"
+          "bureaucracy"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "fig29",
         "text": "секретарша, видавшая некоторое дерьмо",
         "tags": [
           "urban",
-          "rough"
+          "bureaucracy"
         ],
         "tone": "rough",
         "profanity": 0,
@@ -2111,6 +2101,7 @@
         "text": "начальник с лицом человека, которому всё пиздец как надоело",
         "tags": [
           "urban",
+          "bureaucracy",
           "rough"
         ],
         "tone": "rough",
@@ -2121,11 +2112,9 @@
         "id": "fig31",
         "text": "спортсмен-любитель после третьего инфаркта",
         "tags": [
-          "urban",
-          "rough",
-          "body"
+          "urban"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.7
       },
@@ -2133,24 +2122,23 @@
         "id": "fig32",
         "text": "художник, которого не берут ни в одну галерею",
         "tags": [
-          "rough",
+          "urban",
           "literary"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "fig33",
-        "text": "поэт-неудачник с тремя подписчиками",
+        "text": "поэт с тремя подписчиками",
         "tags": [
-          "rough",
-          "literary",
-          "domestic"
+          "urban",
+          "literary"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "fig34",
@@ -2161,15 +2149,15 @@
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "fig35",
         "text": "философ, дрочащий на Ницше",
         "tags": [
+          "urban",
           "literary",
-          "rough",
-          "body"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2,
