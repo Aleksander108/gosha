@@ -250,6 +250,77 @@
         "provincial_science"
       ],
       "weight": 1.2
+    },
+    {
+      "id": "epiphany",
+      "name": "ПРОЗРЕНИЕ / ФИЛОСОФСКИЙ БРЕД",
+      "template": "{gerund_phrase}, {profession} {full_name} {insight} и {epiphany_speech}: «{input}».",
+      "required_slots": [
+        "gerund_phrase",
+        "profession",
+        "full_name",
+        "insight",
+        "epiphany_speech"
+      ],
+      "compatible_packs": [
+        "urban_trash",
+        "entrance_surreal",
+        "provincial_science",
+        "bureaucracy",
+        "body_grotesque"
+      ],
+      "weight": 1.3
+    },
+    {
+      "id": "mundane_treatise",
+      "name": "ФИЛОСОФСКИЙ ТРАКТАТ О БЫТОВОМ",
+      "template": "В трактате «{treatise_title}» {profession} {full_name} заключает: «{input}».",
+      "required_slots": [
+        "treatise_title",
+        "profession",
+        "full_name"
+      ],
+      "compatible_packs": [
+        "bureaucracy",
+        "provincial_science",
+        "literature",
+        "urban_trash",
+        "entrance_surreal"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "mundane_guru",
+      "name": "ГУРУ ИЗ БЫТОВУХИ",
+      "template": "{profession} {full_name}, {guru_title}, учит: «{input}».",
+      "required_slots": [
+        "profession",
+        "full_name",
+        "guru_title"
+      ],
+      "compatible_packs": [
+        "urban_trash",
+        "entrance_surreal",
+        "provincial_science",
+        "bureaucracy"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "spiritual_domestic",
+      "name": "БЫТОВАЯ ДУХОВНОСТЬ",
+      "template": "{spiritual_domestic_setup}: «{input}».",
+      "required_slots": [
+        "spiritual_domestic_setup"
+      ],
+      "compatible_packs": [
+        "urban_trash",
+        "entrance_surreal",
+        "provincial_science",
+        "bureaucracy",
+        "body_grotesque"
+      ],
+      "weight": 1.3
     }
   ],
   "world_packs": [
@@ -6664,6 +6735,1963 @@
         ],
         "tone": "rough",
         "profanity": 0
+      }
+    ],
+    "gerund_phrase": [
+      {
+        "id": "ger01",
+        "text": "Проходя мимо прачечной",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.4
+      },
+      {
+        "id": "ger02",
+        "text": "Выйдя из подвала",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.4
+      },
+      {
+        "id": "ger03",
+        "text": "Перелезая через забор",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.5
+      },
+      {
+        "id": "ger04",
+        "text": "Стоя в очереди за кефиром",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.5
+      },
+      {
+        "id": "ger05",
+        "text": "Починяя унитаз на третьем этаже",
+        "tags": [
+          "domestic",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.5
+      },
+      {
+        "id": "ger06",
+        "text": "Разгружая вагон с селёдкой",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "ger07",
+        "text": "Споткнувшись о бордюр",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.4
+      },
+      {
+        "id": "ger08",
+        "text": "Дожидаясь маршрутки на морозе",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.4
+      },
+      {
+        "id": "ger09",
+        "text": "Просматривая расценки на гробы",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ger10",
+        "text": "Возвращаясь из вытрезвителя",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "ger11",
+        "text": "Выгребая мусор из подвала",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.5
+      },
+      {
+        "id": "ger12",
+        "text": "Блуждая по промзоне в тумане",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "ger13",
+        "text": "Пересчитывая банки тушёнки в погребе",
+        "tags": [
+          "domestic",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "ger14",
+        "text": "Выковыривая жвачку из-под стула",
+        "tags": [
+          "urban",
+          "domestic",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.5
+      },
+      {
+        "id": "ger15",
+        "text": "Нажравшись в хлам у гаражей",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 1,
+        "absurdity": 0.6
+      },
+      {
+        "id": "ger16",
+        "text": "Сидя на толчке в задумчивости",
+        "tags": [
+          "domestic",
+          "body",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 1,
+        "absurdity": 0.6
+      },
+      {
+        "id": "ger17",
+        "text": "Обоссав угол поликлиники",
+        "tags": [
+          "urban",
+          "body",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ger18",
+        "text": "Выблевав душу за ларьком",
+        "tags": [
+          "urban",
+          "body",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ger19",
+        "text": "Протрезвев в канаве на рассвете",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ger20",
+        "text": "Заглянув в бездну районного сортира",
+        "tags": [
+          "urban",
+          "domestic",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      }
+    ],
+    "profession": [
+      {
+        "id": "prof01",
+        "text": "кладовщик",
+        "tags": [
+          "urban",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof02",
+        "text": "сантехник",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof03",
+        "text": "бухгалтер",
+        "tags": [
+          "bureaucracy",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof04",
+        "text": "электрик",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof05",
+        "text": "прораб",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof06",
+        "text": "вахтёр",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof07",
+        "text": "дворник",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof08",
+        "text": "тракторист",
+        "tags": [
+          "provincial",
+          "rough"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof09",
+        "text": "завхоз",
+        "tags": [
+          "bureaucracy",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof10",
+        "text": "патологоанатом",
+        "tags": [
+          "urban",
+          "rough",
+          "science"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof11",
+        "text": "крановщик",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof12",
+        "text": "грузчик",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof13",
+        "text": "лаборант",
+        "tags": [
+          "science",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof14",
+        "text": "агроном",
+        "tags": [
+          "provincial",
+          "science"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof15",
+        "text": "фельдшер",
+        "tags": [
+          "provincial",
+          "science"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "prof16",
+        "text": "уборщица",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "prof17",
+        "text": "медсестра",
+        "tags": [
+          "provincial",
+          "science"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "prof18",
+        "text": "буфетчица",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "prof19",
+        "text": "гардеробщица",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "prof20",
+        "text": "санитарка",
+        "tags": [
+          "urban",
+          "science"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "prof21",
+        "text": "кладовщица",
+        "tags": [
+          "urban",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "prof22",
+        "text": "повариха",
+        "tags": [
+          "domestic",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "prof23",
+        "text": "нянечка",
+        "tags": [
+          "domestic",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      }
+    ],
+    "full_name": [
+      {
+        "id": "name01",
+        "text": "Степан",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "name02",
+        "text": "Николай",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "name03",
+        "text": "Геннадий",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "name04",
+        "text": "Валентина",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "name05",
+        "text": "Тамара",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "name06",
+        "text": "Борис",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "name07",
+        "text": "Анатолий",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "name08",
+        "text": "Глафира",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "name09",
+        "text": "Евлампий",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "name10",
+        "text": "Зинаида",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "name11",
+        "text": "Прохор",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "name12",
+        "text": "Клавдия",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "name13",
+        "text": "Аркадий",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "name14",
+        "text": "Людмила",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "name15",
+        "text": "Пётр",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "name16",
+        "text": "Раиса",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "name17",
+        "text": "Ефим",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "name18",
+        "text": "Серафима",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      },
+      {
+        "id": "name19",
+        "text": "Альберт",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "m"
+      },
+      {
+        "id": "name20",
+        "text": "Нинель",
+        "tags": [
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "gender": "f"
+      }
+    ],
+    "insight": [
+      {
+        "id": "ins01",
+        "text": "понял смысл бытия",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "поняла смысл бытия"
+      },
+      {
+        "id": "ins02",
+        "text": "осознал тщетность всего сущего",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "осознала тщетность всего сущего"
+      },
+      {
+        "id": "ins03",
+        "text": "постиг истину",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "постигла истину"
+      },
+      {
+        "id": "ins04",
+        "text": "прозрел окончательно",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "прозрела окончательно"
+      },
+      {
+        "id": "ins05",
+        "text": "познал суть вещей",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "познала суть вещей"
+      },
+      {
+        "id": "ins06",
+        "text": "ощутил вселенскую тоску",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "ощутила вселенскую тоску"
+      },
+      {
+        "id": "ins07",
+        "text": "обрёл просветление",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "обрела просветление"
+      },
+      {
+        "id": "ins08",
+        "text": "разгадал загадку мироздания",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "разгадала загадку мироздания"
+      },
+      {
+        "id": "ins09",
+        "text": "прочувствовал бренность бытия",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "прочувствовала бренность бытия"
+      },
+      {
+        "id": "ins10",
+        "text": "достиг полного просветления",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "достигла полного просветления"
+      },
+      {
+        "id": "ins11",
+        "text": "осмыслил всё и сразу",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "осмыслила всё и сразу"
+      },
+      {
+        "id": "ins12",
+        "text": "понял всё про эту жизнь",
+        "tags": [
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "text_f": "поняла всё про эту жизнь"
+      },
+      {
+        "id": "ins13",
+        "text": "охуел от осознания",
+        "tags": [
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "text_f": "охуела от осознания"
+      },
+      {
+        "id": "ins14",
+        "text": "допёр наконец",
+        "tags": [
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 1,
+        "text_f": "допёрла наконец"
+      },
+      {
+        "id": "ins15",
+        "text": "ёбнулся просветлением",
+        "tags": [
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "text_f": "ёбнулась просветлением"
+      }
+    ],
+    "epiphany_speech": [
+      {
+        "id": "esp01",
+        "text": "изрёк",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "изрекла"
+      },
+      {
+        "id": "esp02",
+        "text": "провозгласил",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "провозгласила"
+      },
+      {
+        "id": "esp03",
+        "text": "молвил",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "молвила"
+      },
+      {
+        "id": "esp04",
+        "text": "произнёс торжественно",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "произнесла торжественно"
+      },
+      {
+        "id": "esp05",
+        "text": "прошептал в пустоту",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "прошептала в пустоту"
+      },
+      {
+        "id": "esp06",
+        "text": "объявил миру",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "объявила миру"
+      },
+      {
+        "id": "esp07",
+        "text": "возвестил",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "возвестила"
+      },
+      {
+        "id": "esp08",
+        "text": "продиктовал ветру",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "text_f": "продиктовала ветру"
+      },
+      {
+        "id": "esp09",
+        "text": "прохрипел",
+        "tags": [
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "text_f": "прохрипела"
+      },
+      {
+        "id": "esp10",
+        "text": "проорал на всю улицу",
+        "tags": [
+          "rough",
+          "urban"
+        ],
+        "tone": "rough",
+        "profanity": 1,
+        "text_f": "проорала на всю улицу"
+      }
+    ],
+    "treatise_title": [
+      {
+        "id": "tt01",
+        "text": "О природе засора",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "tt02",
+        "text": "Путь швабры",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "tt03",
+        "text": "О бренности кефира",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tt04",
+        "text": "Краткая история выгребной ямы",
+        "tags": [
+          "domestic",
+          "rough",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tt05",
+        "text": "Феноменология подъездной лампочки",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tt06",
+        "text": "Онтология очереди",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "tt07",
+        "text": "О движении мусоропровода",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "tt08",
+        "text": "Диалектика дверной ручки",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tt09",
+        "text": "Критика чистого борща",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "tt10",
+        "text": "Метафизика стиральной машины",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tt11",
+        "text": "К вопросу о сущности линолеума",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tt12",
+        "text": "О вечном возвращении пробки в раковине",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "tt13",
+        "text": "Бытие и унитаз",
+        "tags": [
+          "domestic",
+          "rough",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "tt14",
+        "text": "О смысле перекура",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "tt15",
+        "text": "Этика и эстетика дырки в носке",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tt16",
+        "text": "Экзистенция холодильника",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tt17",
+        "text": "Апология тараканов",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tt18",
+        "text": "Воля к ремонту",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tt19",
+        "text": "Структура и интерпретация столовой ложки",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tt20",
+        "text": "Логико-философский трактат о кране",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      }
+    ],
+    "guru_title": [
+      {
+        "id": "gt01",
+        "text": "мастер просветления и учёта швабр",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "gt02",
+        "text": "хранитель тайного знания о трубах",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "gt03",
+        "text": "просветлённый страж подсобки",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "gt04",
+        "text": "великий мудрец коммунального хозяйства",
+        "tags": [
+          "domestic",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "gt05",
+        "text": "носитель абсолютной истины и ключей от склада",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "gt06",
+        "text": "учитель вселенского покоя и замены лампочек",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "gt07",
+        "text": "провидец канализационных глубин",
+        "tags": [
+          "domestic",
+          "rough",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "gt08",
+        "text": "хранитель вечной мудрости и амбарной книги",
+        "tags": [
+          "provincial",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "gt09",
+        "text": "оракул пятого этажа",
+        "tags": [
+          "domestic",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "gt10",
+        "text": "философ мусоропровода",
+        "tags": [
+          "domestic",
+          "rough",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "gt11",
+        "text": "мыслитель с гаечным ключом",
+        "tags": [
+          "domestic",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "gt12",
+        "text": "просветлённый мастер половой тряпки",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "gt13",
+        "text": "провидец очереди в поликлинику",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "gt14",
+        "text": "хранитель тайн подвального помещения",
+        "tags": [
+          "domestic",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "gt15",
+        "text": "верховный мудрец планёрки",
+        "tags": [
+          "bureaucracy",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "gt16",
+        "text": "оракул обеденного перерыва",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "gt17",
+        "text": "учитель смирения и погрузочных работ",
+        "tags": [
+          "urban",
+          "rough",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "gt18",
+        "text": "философ привокзального сортира",
+        "tags": [
+          "urban",
+          "rough",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "gt19",
+        "text": "мастер внутреннего покоя и наружного ремонта",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "gt20",
+        "text": "просветлённый хранитель рубильника",
+        "tags": [
+          "urban",
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      }
+    ],
+    "spiritual_domestic_setup": [
+      {
+        "id": "sds01",
+        "text": "Ежедневное заклинание дворника Степана перед утренней сменой",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds02",
+        "text": "Тайные слова, которые вахтёр Евлампий шепчет перед каждой сменой",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds03",
+        "text": "Фраза, которую грузчик Борис произносит как заклинание перед каждой разгрузкой",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds04",
+        "text": "Слова силы, которые завхоз Клавдия произносит над инвентарной ведомостью",
+        "tags": [
+          "bureaucracy",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds05",
+        "text": "Утреннее правило кладовщика Прохора перед открытием склада",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds06",
+        "text": "Печенье с предсказанием из столовой завода Красный Штамп гласило",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds07",
+        "text": "Надпись на стене лифта, признанная пророческой, гласила",
+        "tags": [
+          "domestic",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds08",
+        "text": "Инструкция к мясорубке, прочитанная задом наперёд, гласила",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "sds09",
+        "text": "Показания счётчика воды, расшифрованные как послание свыше, гласили",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "sds10",
+        "text": "Квитанция за ЖКХ, истолкованная как пророчество, гласила",
+        "tags": [
+          "domestic",
+          "bureaucracy"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds11",
+        "text": "Ценник на хлеб, если прочитать его в зеркале, гласил",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds12",
+        "text": "Трещина в потолке, расшифрованная как древнее послание, гласила",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds13",
+        "text": "На разделочной доске в коммуналке проступила надпись",
+        "tags": [
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds14",
+        "text": "На запотевшем зеркале в ванной невидимая рука вывела",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds15",
+        "text": "На крышке бачка унитаза проступили слова вечной истины",
+        "tags": [
+          "domestic",
+          "rough",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "sds16",
+        "text": "На днище кастрюли после кипячения проявились знаки, которые гласили",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds17",
+        "text": "На запылённом зеркале в подъезде кто-то пальцем вывел",
+        "tags": [
+          "domestic",
+          "entrance"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "sds18",
+        "text": "На сорок седьмой день мытья полов электрик Аркадий понял главное и произнёс",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds19",
+        "text": "После двадцати лет на одном маршруте водитель Геннадий вдруг изрёк",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds20",
+        "text": "На третий год перекладывания бумажек бухгалтер Тамара постигла истину и сказала",
+        "tags": [
+          "bureaucracy",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds21",
+        "text": "Разгрузив десятитысячный поддон, грузчик Николай достиг просветления и провозгласил",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds22",
+        "text": "Пересчитав швабры в четырнадцатый раз, завхоз Зинаида познала абсолютную истину и объявила",
+        "tags": [
+          "domestic",
+          "bureaucracy",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "sds23",
+        "text": "На восемнадцатый год учёта гаек кладовщик Прохор прозрел и молвил",
+        "tags": [
+          "provincial",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds24",
+        "text": "Намотав десять тысяч километров по двору, дворник Степан постиг суть бытия и произнёс",
+        "tags": [
+          "domestic",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds25",
+        "text": "Выбирая между сосисками и пельменями, кладовщик Степан осознал главное и произнёс",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds26",
+        "text": "Решая, починить кран или забить, сантехник Прохор постиг истину и сказал",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds27",
+        "text": "Стоя перед выбором — пакет или без пакета — кассир Людмила молвила",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds28",
+        "text": "Глядя на два одинаково сломанных стула, завхоз Борис понял всё и изрёк",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds29",
+        "text": "Решая, какой провод резать — красный или синий — электрик Аркадий произнёс",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds30",
+        "text": "Стоя перед дилеммой — мыть пол или идти курить — уборщица Серафима провозгласила",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds31",
+        "text": "Ученик спросил дворника Бориса о смысле жизни, и тот ответил",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds32",
+        "text": "Когда стажёр попросил совета, слесарь Анатолий молча указал на унитаз и произнёс",
+        "tags": [
+          "domestic",
+          "rough",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds33",
+        "text": "На вопрос «зачем мы здесь» вахтёр Евлампий поднял глаза от кроссворда и ответил",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds34",
+        "text": "Когда новенький спросил «а зачем это всё», бригадир Николай вздохнул и ответил",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds35",
+        "text": "Единственное, чему завхоз Глафира учит стажёров перед первой сменой",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds36",
+        "text": "На вопрос «что есть истина» электрик Аркадий покрутил пальцем у виска и сказал",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds37",
+        "text": "После трёх часов созерцания протечки сантехник Николай изрёк",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds38",
+        "text": "Глядя в бездну мусоропровода, дворник Тамара прошептала",
+        "tags": [
+          "domestic",
+          "rough",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds39",
+        "text": "Войдя в состояние абсолютного покоя посреди планёрки, завхоз Прохор выдал",
+        "tags": [
+          "bureaucracy",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds40",
+        "text": "Созерцая трещину в потолке третий час, штукатур Геннадий молвил",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds41",
+        "text": "Медитируя над засохшим борщом, повар Зинаида постигла вечное и произнесла",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds42",
+        "text": "После того как прорвало трубу в четвёртый раз, сантехник Степан тихо произнёс",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds43",
+        "text": "Когда загорелась третья микроволновка за месяц, электрик Борис философски заметил",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds44",
+        "text": "Уронив поддон с кирпичами на ногу, грузчик Анатолий прошептал",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds45",
+        "text": "Когда в подвале в пятый раз погас свет, вахтёр Евлампий спокойно сказал",
+        "tags": [
+          "domestic",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds46",
+        "text": "Обнаружив что кто-то опять нагадил в лифт, дворник Глафира спокойно изрекла",
+        "tags": [
+          "domestic",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 1,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds47",
+        "text": "Охуев от третьего потопа за неделю, сантехник Николай произнёс",
+        "tags": [
+          "domestic",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds48",
+        "text": "Когда в подсобке опять нашли говно, уборщица Серафима философски заметила",
+        "tags": [
+          "domestic",
+          "rough",
+          "body"
+        ],
+        "tone": "rough",
+        "profanity": 1,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds49",
+        "text": "Выгребая жижу из подвала, дворник Степан прозрел и проорал",
+        "tags": [
+          "domestic",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 1,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds50",
+        "text": "Когда засор оказался живым, сантехник Геннадий прозрел и провозгласил",
+        "tags": [
+          "domestic",
+          "rough",
+          "body"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.9
       }
     ],
     "amplifiers": [

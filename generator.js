@@ -187,7 +187,7 @@ function pickWorldPack(data, family, history, profanityLevel) {
  *   - profanity_level (не берём слишком грубые элементы)
  *   - cooldown
  */
-function pickSlot(slotName, data, worldPack, history, profanityLevel) {
+function pickSlot(slotName, data, worldPack, history, profanityLevel, gender) {
   const dict = data.slots[slotName];
   if (!dict || !Array.isArray(dict)) return null;
 
@@ -196,6 +196,9 @@ function pickSlot(slotName, data, worldPack, history, profanityLevel) {
 
   const candidates = dict.map(el => {
     let w = 1.0;
+
+    // Фильтр по полу: если пол уже определён и у элемента есть пол — должны совпадать
+    if (gender && el.gender && el.gender !== gender) return { ...el, _weight: 0 };
 
     // Cooldown
     w *= cooldownWeight(el.id, history);
@@ -241,17 +244,23 @@ function buildCandidate(family, data, worldPack, history, profanityLevel, quoted
   const usedIds = [family.id, worldPack.id];
   const slotValues = {};
 
+  // Трекинг пола: первый слот с полем gender задаёт пол,
+  // последующие слоты фильтруются по нему, глаголы берут text_f для женского
+  let gender = null;
+
   // Заполняем каждый обязательный слот
   for (const slotName of family.required_slots) {
-    const el = pickSlot(slotName, data, worldPack, history, profanityLevel);
+    const el = pickSlot(slotName, data, worldPack, history, profanityLevel, gender);
     if (!el || el._weight === 0) {
       // Если не нашли подходящий элемент — пробуем без учёта пакета
-      const fallbackEl = pickSlotFallback(slotName, data, history, profanityLevel);
+      const fallbackEl = pickSlotFallback(slotName, data, history, profanityLevel, gender);
       if (!fallbackEl) return null;
-      slotValues[slotName] = fallbackEl.text;
+      if (!gender && fallbackEl.gender) gender = fallbackEl.gender;
+      slotValues[slotName] = (gender === 'f' && fallbackEl.text_f) ? fallbackEl.text_f : fallbackEl.text;
       usedIds.push(fallbackEl.id);
     } else {
-      slotValues[slotName] = el.text;
+      if (!gender && el.gender) gender = el.gender;
+      slotValues[slotName] = (gender === 'f' && el.text_f) ? el.text_f : el.text;
       usedIds.push(el.id);
 
       // Для carrier — подхватываем rel_clause
@@ -291,12 +300,13 @@ function buildCandidate(family, data, worldPack, history, profanityLevel, quoted
 }
 
 /** Запасной выбор слота без учёта пакета мира */
-function pickSlotFallback(slotName, data, history, profanityLevel) {
+function pickSlotFallback(slotName, data, history, profanityLevel, gender) {
   const dict = data.slots[slotName];
   if (!dict || !Array.isArray(dict)) return null;
 
   const candidates = dict
     .filter(el => (el.profanity || 0) <= profanityLevel)
+    .filter(el => !gender || !el.gender || el.gender === gender)
     .map(el => ({ ...el, _weight: Math.max(0.05, cooldownWeight(el.id, history)) }));
 
   return weightedRandom(candidates);
