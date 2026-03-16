@@ -858,25 +858,25 @@
       },
       {
         "id": "doc02",
-        "text": "акт вскрытия невостребованного багажа",
+        "text": "акт вскрытия багажа, который никто не забрал за двенадцать лет",
         "tags": [
           "official",
           "bureaucratic"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.5
+        "absurdity": 0.6
       },
       {
         "id": "doc03",
-        "text": "приказ начальника гарнизонной гауптвахты",
+        "text": "приказ начальника гарнизона, написанный дрожащей рукой в четыре утра",
         "tags": [
           "official",
           "military"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.5
+        "absurdity": 0.6
       },
       {
         "id": "doc04",
@@ -913,25 +913,25 @@
       },
       {
         "id": "doc07",
-        "text": "рапорт участкового о происшествии у пивного ларька",
+        "text": "рапорт участкового о происшествии у пивного ларька, написанный с семью ошибками",
         "tags": [
           "official",
           "bureaucratic"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.5
+        "absurdity": 0.6
       },
       {
         "id": "doc08",
-        "text": "тендерную документацию на ремонт общественного туалета",
+        "text": "тендерную документацию на ремонт общественного туалета стоимостью сорок миллионов",
         "tags": [
           "official",
           "absurd_official"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.7
+        "absurdity": 0.8
       },
       {
         "id": "doc09",
@@ -946,7 +946,7 @@
       },
       {
         "id": "doc10",
-        "text": "протокол заседания домкома по вопросу засора канализации",
+        "text": "протокол домкома по вопросу засора канализации, занявший одиннадцать страниц",
         "tags": [
           "official",
           "domestic",
@@ -954,7 +954,7 @@
         ],
         "tone": "rough",
         "profanity": 0,
-        "absurdity": 0.7
+        "absurdity": 0.8
       },
       {
         "id": "doc11",
@@ -969,7 +969,7 @@
       },
       {
         "id": "doc12",
-        "text": "диссертацию «Влияние лунных фаз на удои коз Ставрополья»",
+        "text": "диссертацию о влиянии лунных фаз на удои коз Ставрополья",
         "tags": [
           "absurd_official",
           "science"
@@ -980,14 +980,14 @@
       },
       {
         "id": "doc13",
-        "text": "служебную записку замдиректора по хозчасти",
+        "text": "служебную записку, которую замдиректора писал три месяца и так и не отправил",
         "tags": [
           "official",
           "bureaucratic"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.4
+        "absurdity": 0.7
       },
       {
         "id": "doc14",
@@ -1003,7 +1003,7 @@
       },
       {
         "id": "doc15",
-        "text": "методичку «Как правильно принимать пиздюли» для молодых сотрудников",
+        "text": "методичку по правильному приёму пиздюлей для молодых сотрудников",
         "tags": [
           "absurd_official",
           "rough"
@@ -1014,51 +1014,51 @@
       },
       {
         "id": "doc16",
-        "text": "ёбаный в рот приказ о реорганизации сортиров",
+        "text": "приказ о реорганизации сортиров, который семь раз переписывали и всё равно вышла хуйня",
         "tags": [
           "absurd_official",
           "rough"
         ],
         "tone": "rough",
-        "profanity": 3,
+        "profanity": 2,
         "absurdity": 0.8
       },
       {
         "id": "doc17",
-        "text": "охуевшую от собственной важности докладную записку",
+        "text": "докладную записку, настолько важную, что от неё охуел даже шкаф",
         "tags": [
           "absurd_official",
           "rough"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.7
+        "absurdity": 0.8
       },
       {
         "id": "doc18",
-        "text": "акт о невъебенном пиздеце на производстве",
-        "tags": [
-          "absurd_official",
-          "rough"
-        ],
-        "tone": "rough",
-        "profanity": 3,
-        "absurdity": 0.9
-      },
-      {
-        "id": "doc19",
-        "text": "пиздецовый отчёт о проверке школьной столовой",
+        "text": "акт о пиздеце на производстве, составленный в трёх экземплярах",
         "tags": [
           "absurd_official",
           "rough"
         ],
         "tone": "rough",
         "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "doc19",
+        "text": "отчёт о проверке школьной столовой, от которого инспектор поседел",
+        "tags": [
+          "official",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
         "absurdity": 0.7
       },
       {
         "id": "doc20",
-        "text": "наипиздейший протокол пиздастраданий личного состава",
+        "text": "протокол ебучих страданий личного состава, который никто не подписал",
         "tags": [
           "absurd_official",
           "rough"
@@ -1069,7 +1069,7 @@
       },
       {
         "id": "doc21",
-        "text": "охуительно подробную опись залупы и прилегающих территорий",
+        "text": "опись залупы и прилегающих территорий, составленную с охуительной подробностью",
         "tags": [
           "absurd_official",
           "rough",
@@ -1077,20 +1077,19 @@
         ],
         "tone": "rough",
         "profanity": 3,
-        "absurdity": 1.0
+        "absurdity": 0.9
       }
     ],
     "source": [
       {
         "id": "src01",
-        "text": "неизвестной главе романа «Война и мир»",
+        "text": "неизвестной главе романа Толстого",
         "tags": [
-          "classic",
-          "literary"
+          "classic"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "src02",
@@ -1105,14 +1104,13 @@
       },
       {
         "id": "src03",
-        "text": "утерянной басне Крылова",
+        "text": "утерянной басне Крылова, где мораль была всего одна",
         "tags": [
-          "classic",
-          "literary"
+          "classic"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "src04",
@@ -1123,56 +1121,53 @@
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.6
+        "absurdity": 0.7
       },
       {
         "id": "src05",
-        "text": "вырванной странице учебника «Родная речь» за третий класс",
+        "text": "вырванной странице школьного учебника за третий класс",
         "tags": [
-          "obscure",
-          "domestic"
+          "urban"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.5
+        "absurdity": 0.6
       },
       {
         "id": "src06",
         "text": "посмертных записках Гоголя, которые он спрятал в валенок",
         "tags": [
           "classic",
-          "rough"
+          "obscure"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.8
       },
       {
         "id": "src07",
-        "text": "охуенно древнем папирусе, найденном в пещере у моря",
+        "text": "охуенно древнем папирусе из пещеры, которая воняла козлятиной",
         "tags": [
           "ancient",
-          "rough",
-          "obscure"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.9
+        "absurdity": 0.8
       },
       {
         "id": "src08",
         "text": "рукописи, отвергнутой двенадцатью издательствами",
         "tags": [
-          "literary",
           "obscure"
         ],
         "tone": "neutral",
         "profanity": 0,
-        "absurdity": 0.5
+        "absurdity": 0.7
       },
       {
         "id": "src09",
-        "text": "самиздатовской брошюре «Жизнь после пиздеца»",
+        "text": "самиздатовской брошюре о жизни после пиздеца",
         "tags": [
           "obscure",
           "rough"
@@ -1185,10 +1180,10 @@
         "id": "src10",
         "text": "тайном дневнике школьного трудовика",
         "tags": [
-          "obscure",
-          "domestic"
+          "urban",
+          "obscure"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.7
       },
@@ -1201,16 +1196,16 @@
         ],
         "tone": "rough",
         "profanity": 0,
-        "absurdity": 0.7
+        "absurdity": 0.8
       },
       {
         "id": "src12",
         "text": "личном деле пациента палаты номер шесть",
         "tags": [
-          "literary",
-          "rough"
+          "classic",
+          "obscure"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.7
       },
@@ -1218,10 +1213,10 @@
         "id": "src13",
         "text": "предсмертной записке, которая оказалась списком покупок",
         "tags": [
-          "obscure",
-          "absurd"
+          "urban",
+          "rough"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.8
       },
@@ -1230,7 +1225,7 @@
         "text": "потерянной тетради Набокова, исписанной мелким бешеным почерком",
         "tags": [
           "classic",
-          "literary"
+          "obscure"
         ],
         "tone": "neutral",
         "profanity": 0,
@@ -1241,7 +1236,7 @@
         "text": "берестяной грамоте, пролежавшей в новгородской грязи восемьсот лет",
         "tags": [
           "ancient",
-          "classic"
+          "archaeology"
         ],
         "tone": "neutral",
         "profanity": 0,
@@ -1249,11 +1244,10 @@
       },
       {
         "id": "src16",
-        "text": "охуенно редком манускрипте, спизженном с какого-то склада",
+        "text": "охуенно редком манускрипте, спизженном из музейного запасника",
         "tags": [
-          "classic",
-          "rough",
-          "obscure"
+          "ancient",
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2,
@@ -1261,30 +1255,29 @@
       },
       {
         "id": "src17",
-        "text": "тримандаблядской рукописи неизвестного отшельника-алкоголика",
+        "text": "рукописи неизвестного отшельника, от которой несло перегаром даже через триста лет",
         "tags": [
-          "obscure",
-          "rough",
-          "ancient"
-        ],
-        "tone": "rough",
-        "profanity": 3,
-        "absurdity": 0.9
-      },
-      {
-        "id": "src18",
-        "text": "запрещённой ёбаной поэме, ходившей в списках при дворе",
-        "tags": [
-          "classic",
+          "ancient",
           "rough"
         ],
         "tone": "rough",
-        "profanity": 2,
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "src18",
+        "text": "запрещённой поэме, которую жгли трижды, а она всё равно ходила в списках",
+        "tags": [
+          "classic",
+          "obscure"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
         "absurdity": 0.7
       },
       {
         "id": "src19",
-        "text": "пиздецовом сборнике «Русский мат как зеркало души»",
+        "text": "пиздецовом сборнике о русском мате как зеркале души",
         "tags": [
           "obscure",
           "rough"
@@ -1298,7 +1291,6 @@
         "text": "неизвестной пьесе Шекспира, найденной в сточной канаве Лондона",
         "tags": [
           "classic",
-          "literary",
           "rough"
         ],
         "tone": "rough",
@@ -1307,10 +1299,9 @@
       },
       {
         "id": "src21",
-        "text": "зачёркнутой строфе «Евгения Онегина», которую Пушкин стыдливо вымарал",
+        "text": "зачёркнутой строфе Онегина, которую Пушкин стыдливо вымарал",
         "tags": [
-          "classic",
-          "literary"
+          "classic"
         ],
         "tone": "neutral",
         "profanity": 0,
@@ -1320,8 +1311,7 @@
         "id": "src22",
         "text": "нотной тетради Бетховена, которую он швырнул в камин, но не попал",
         "tags": [
-          "classic",
-          "literary"
+          "classic"
         ],
         "tone": "neutral",
         "profanity": 0,
@@ -1331,8 +1321,7 @@
         "id": "src23",
         "text": "письме Чайковского, засунутом между страниц партитуры",
         "tags": [
-          "classic",
-          "literary"
+          "classic"
         ],
         "tone": "neutral",
         "profanity": 0,
@@ -1343,7 +1332,6 @@
         "text": "записной книжке Леонардо да Винчи, написанной зеркальным почерком",
         "tags": [
           "classic",
-          "literary",
           "ancient"
         ],
         "tone": "neutral",
@@ -1352,10 +1340,9 @@
       },
       {
         "id": "src25",
-        "text": "трактате Ницше, который издатель отказался печатать",
+        "text": "трактате Ницше, который тот написал за ночь и от которого потом отрёкся",
         "tags": [
           "classic",
-          "literary",
           "obscure"
         ],
         "tone": "neutral",
@@ -1367,7 +1354,6 @@
         "text": "подписи под картиной Босха, которую триста лет никто не мог разобрать",
         "tags": [
           "classic",
-          "literary",
           "ancient"
         ],
         "tone": "neutral",
@@ -1379,7 +1365,6 @@
         "text": "лабораторном журнале Менделеева, между формулами",
         "tags": [
           "classic",
-          "literary",
           "science"
         ],
         "tone": "neutral",
@@ -1391,9 +1376,7 @@
         "text": "конспекте лекций Фрейда, на полях которого он рисовал хуи",
         "tags": [
           "classic",
-          "literary",
-          "rough",
-          "body"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 1,
@@ -1403,8 +1386,7 @@
         "id": "src29",
         "text": "полотне Малевича, под слоем чёрной краски",
         "tags": [
-          "classic",
-          "literary"
+          "classic"
         ],
         "tone": "neutral",
         "profanity": 0,
@@ -1414,9 +1396,7 @@
         "id": "src30",
         "text": "рукописи Булгакова, которую он точно сжёг, но она опять всплыла",
         "tags": [
-          "classic",
-          "literary",
-          "obscure"
+          "classic"
         ],
         "tone": "neutral",
         "profanity": 0,
@@ -1427,8 +1407,7 @@
         "text": "невъебенно древнем свитке, от которого несло козлятиной",
         "tags": [
           "ancient",
-          "rough",
-          "obscure"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2,
@@ -1436,7 +1415,7 @@
       },
       {
         "id": "src32",
-        "text": "охуенно толстом томе «Энциклопедия пиздастраданий народов мира»",
+        "text": "охуенно толстом томе энциклопедии пиздастраданий народов мира",
         "tags": [
           "obscure",
           "rough"
