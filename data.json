@@ -103,6 +103,14 @@
       "weight": 1.0
     },
     {
+      "id": "anecdote",
+      "name": "АНЕКДОТИЧЕСКИЕ ГЕРОИ",
+      "template": "{anecdote_setup}: «{input}».",
+      "required_slots": ["anecdote_setup"],
+      "compatible_packs": ["urban_trash", "entrance_surreal", "literature", "provincial_science", "body_grotesque"],
+      "weight": 1.3
+    },
+    {
       "id": "animal_talk",
       "name": "ЗВЕРЬЁ ГОВОРИТ",
       "template": "{animal} {animal_situation} и {animal_speech}: «{input}».",
@@ -758,6 +766,34 @@
       {"id": "iv08", "text": "нахерачил углём", "tags": ["rough"], "tone": "rough", "profanity": 1},
       {"id": "iv09", "text": "нахуярил гвоздём", "tags": ["rough", "urban"], "tone": "rough", "profanity": 2},
       {"id": "iv10", "text": "наебенил баллончиком с душой", "tags": ["rough", "urban"], "tone": "rough", "profanity": 2}
+    ],
+
+    "anecdote_setup": [
+      {"id": "ank01", "text": "Вовочка встал посреди урока, подошёл к доске и написал", "tags": ["domestic", "rough"], "tone": "rough", "profanity": 0, "absurdity": 0.6},
+      {"id": "ank02", "text": "Вовочка пришёл домой, швырнул портфель и сказал маме", "tags": ["domestic", "rough"], "tone": "rough", "profanity": 0, "absurdity": 0.5},
+      {"id": "ank03", "text": "Учительница спросила Вовочку что такое любовь, и Вовочка без запинки выдал", "tags": ["domestic", "rough"], "tone": "rough", "profanity": 0, "absurdity": 0.7},
+      {"id": "ank04", "text": "Вовочка на выпускном взял микрофон и охуенно торжественно объявил", "tags": ["domestic", "rough"], "tone": "rough", "profanity": 2, "absurdity": 0.7},
+      {"id": "ank05", "text": "Петька прибежал к Чапаеву, весь в говне, и заорал", "tags": ["rough", "body"], "tone": "rough", "profanity": 1, "absurdity": 0.7},
+      {"id": "ank06", "text": "Василий Иванович допил самогон, крякнул и философски изрёк", "tags": ["rough", "provincial"], "tone": "rough", "profanity": 0, "absurdity": 0.6},
+      {"id": "ank07", "text": "Чапаев посмотрел на карту, выругался и сказал Петьке", "tags": ["rough"], "tone": "rough", "profanity": 0, "absurdity": 0.6},
+      {"id": "ank08", "text": "Петька спросил Чапаева в чём смысл жизни, и тот, не думая, ответил", "tags": ["rough"], "tone": "rough", "profanity": 0, "absurdity": 0.6},
+      {"id": "ank09", "text": "Штирлиц шёл по коридору и думал: ещё никогда он не был так близок к провалу — на стене кто-то написал", "tags": ["rough"], "tone": "rough", "profanity": 0, "absurdity": 0.7},
+      {"id": "ank10", "text": "Штирлиц открыл сейф, достал шифровку, а там одна фраза", "tags": ["rough"], "tone": "rough", "profanity": 0, "absurdity": 0.7},
+      {"id": "ank11", "text": "Штирлиц проснулся в канаве и понял: он не Штирлиц — на лбу было написано", "tags": ["rough", "body"], "tone": "rough", "profanity": 0, "absurdity": 0.8},
+      {"id": "ank12", "text": "Поручик Ржевский встал из-за карточного стола, рыгнул и объявил", "tags": ["rough", "body"], "tone": "rough", "profanity": 1, "absurdity": 0.7},
+      {"id": "ank13", "text": "На балу поручик Ржевский подошёл к даме и с невъебенной галантностью заявил", "tags": ["rough", "literary"], "tone": "rough", "profanity": 2, "absurdity": 0.8},
+      {"id": "ank14", "text": "Поручик Ржевский достал саблю, посмотрел на своё отражение и пробормотал", "tags": ["rough"], "tone": "rough", "profanity": 0, "absurdity": 0.6},
+      {"id": "ank15", "text": "Винни-Пух застрял в норе, три часа матерился, потом успокоился и сказал Пятачку", "tags": ["rough", "domestic"], "tone": "rough", "profanity": 0, "absurdity": 0.8},
+      {"id": "ank16", "text": "Пятачок посмотрел на Винни-Пуха снизу вверх и жалобно пропищал", "tags": ["rough", "domestic"], "tone": "rough", "profanity": 0, "absurdity": 0.7},
+      {"id": "ank17", "text": "Винни-Пух сожрал весь мёд, посмотрел на пустой горшок и охуенно грустно сказал", "tags": ["rough", "domestic"], "tone": "rough", "profanity": 2, "absurdity": 0.8},
+      {"id": "ank18", "text": "Колобок катился по тропинке, встретил лису, послал её нахуй и покатился дальше со словами", "tags": ["rough", "provincial"], "tone": "rough", "profanity": 2, "absurdity": 0.9},
+      {"id": "ank19", "text": "Колобок от всех съебался, сел на пенёк, задумался и сказал в пустоту", "tags": ["rough", "provincial"], "tone": "rough", "profanity": 2, "absurdity": 0.8},
+      {"id": "ank20", "text": "Лягушка поймала стрелу, охуела и вместо «возьми меня замуж» выдала", "tags": ["rough"], "tone": "rough", "profanity": 2, "absurdity": 0.9},
+      {"id": "ank21", "text": "Большое ушастое существо позвонило старому крокодилу в три ночи и сказало", "tags": ["rough", "domestic"], "tone": "rough", "profanity": 0, "absurdity": 0.7},
+      {"id": "ank22", "text": "Старый крокодил закурил, затянулся, посмотрел на ушастого мудака и философски заметил", "tags": ["rough"], "tone": "rough", "profanity": 2, "absurdity": 0.8},
+      {"id": "ank23", "text": "Вовочка нарисовал на заборе хуй и подписал", "tags": ["rough", "body", "urban"], "tone": "rough", "profanity": 1, "absurdity": 0.7},
+      {"id": "ank24", "text": "Петька и Василий Иванович сидели в окопе, молчали, и Петька вдруг выдал", "tags": ["rough"], "tone": "rough", "profanity": 0, "absurdity": 0.6},
+      {"id": "ank25", "text": "Штирлиц стрелял из пистолета по воронам и приговаривал", "tags": ["rough", "absurd"], "tone": "rough", "profanity": 0, "absurdity": 0.8}
     ],
 
     "animal": [
