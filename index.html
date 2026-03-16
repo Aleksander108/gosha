@@ -31,10 +31,10 @@
     <div class="therapy-level">
       <p class="therapy-label">Выбери уровень терапии:</p>
       <div class="therapy-buttons" id="therapyButtons">
-        <button data-level="3" class="active">освобождающая</button>
-        <button data-level="2">трансформирующая</button>
-        <button data-level="1">поддерживающая</button>
         <button data-level="0">дающая шанс</button>
+        <button data-level="1">поддерживающая</button>
+        <button data-level="2" class="active">трансформирующая</button>
+        <button data-level="3">освобождающая</button>
       </div>
     </div>
 
@@ -51,7 +51,7 @@
   <script src="generator.js"></script>
   <script>
     // ── Состояние ──
-    let profanityLevel = 3;
+    let profanityLevel = 2;
     let genCount = 0;
 
     // ── Уровень терапии ──
