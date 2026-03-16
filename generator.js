@@ -281,15 +281,6 @@ function buildCandidate(family, data, worldPack, history, profanityLevel, quoted
   // Если остались незаполненные слоты — провал
   if (/\{[a-z_]+\}/.test(text)) return null;
 
-  // Опционально добавляем усилитель
-  // На уровне 3 — в 65% случаев, на 2 — в 40%
-  const ampChance = profanityLevel >= 3 ? 0.65 : 0.40;
-  if (profanityLevel >= 2 && Math.random() < ampChance) {
-    const ampResult = addAmplifier(text, data, profanityLevel, history);
-    text = ampResult.text;
-    if (ampResult.id) usedIds.push(ampResult.id);
-  }
-
   // Опционально добавляем «Такая хуйня.» отдельным предложением в конец
   // На уровне 3 — в 30% случаев, на 2 — в 15%
   if (profanityLevel >= 2) {
@@ -322,75 +313,7 @@ function pickSlotFallback(slotName, data, history, profanityLevel, gender) {
 }
 
 // ─────────────────────────────────────────────
-// 9. УСИЛИТЕЛИ (AMPLIFIERS)
-// ─────────────────────────────────────────────
-
-/**
- * Вставляет усилитель ВНУТРЬ предложения — между частями конструкции,
- * но обязательно ДО цитаты пользователя (до «).
- *
- * Логика: берём часть текста до «, ищем в ней запятые или пробелы
- * после первых N слов, и вставляем туда филлер как вводное слово.
- * Пример: "Во время эфира, ёб твою мать, диктор зачитал: «...»"
- */
-function addAmplifier(text, data, profanityLevel, history) {
-  const amps = data.slots.amplifiers
-    .filter(a => (a.profanity || 0) <= profanityLevel)
-    .map(a => ({ ...a, _weight: (a.weight || 1.0) * cooldownWeight(a.id, history) }));
-
-  const amp = weightedRandom(amps);
-  if (!amp) return { text, id: null };
-
-  // Нормализуем текст усилителя: убираем запятые/пробелы по краям,
-  // чтобы потом обернуть в ", ... ," единообразно
-  const ampClean = amp.text.replace(/^[,\s]+/, '').replace(/[,\s]+$/, '');
-
-  // Ищем позицию «  — всё до неё это наша "зона вставки"
-  const quoteStart = text.indexOf('«');
-  if (quoteStart === -1) {
-    // Нет кавычек — не вставляем (не должно случиться, но на всякий)
-    return { text, id: null };
-  }
-
-  const before = text.slice(0, quoteStart);
-  const after = text.slice(quoteStart);
-
-  // Ищем все запятые в "before" — это естественные точки вставки
-  const commaPositions = [];
-  for (let i = 0; i < before.length; i++) {
-    if (before[i] === ',') commaPositions.push(i);
-  }
-
-  let result;
-
-  if (commaPositions.length > 0) {
-    // Вставляем после случайной запятой
-    const commaIdx = randomPick(commaPositions);
-    const partBefore = before.slice(0, commaIdx + 1);
-    const partAfter = before.slice(commaIdx + 1).trimStart();
-    result = partBefore + ' ' + ampClean + ', ' + partAfter + after;
-  } else {
-    // Нет запятых — вставляем после первых 2-4 слов
-    const words = before.trimEnd().split(/\s+/);
-    if (words.length >= 3) {
-      const splitAt = 2 + Math.floor(Math.random() * Math.min(2, words.length - 2));
-      const partBefore = words.slice(0, splitAt).join(' ');
-      const partAfter = words.slice(splitAt).join(' ');
-      result = partBefore + ', ' + ampClean + ', ' + partAfter + after;
-    } else {
-      // Слишком короткое предложение — не вставляем
-      return { text, id: null };
-    }
-  }
-
-  // Гарантируем пробел перед «
-  result = result.replace(/([^\s])«/g, '$1 «');
-
-  return { text: result, id: amp.id };
-}
-
-// ─────────────────────────────────────────────
-// 10. ДЕТЕКТОР ОДНОКОРЕННОГО МАТА
+// 9. ДЕТЕКТОР ОДНОКОРЕННОГО МАТА
 // ─────────────────────────────────────────────
 // Матерные корни: если один корень встречается 2+ раз в фразе —
 // это "охуенно охуевший от охуительного", звучит как мусор.
