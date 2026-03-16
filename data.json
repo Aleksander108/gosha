@@ -2020,6 +2020,110 @@
         "tone": "rough",
         "profanity": 2,
         "absurdity": 0.7
+      },
+      {
+        "id": "fig27",
+        "text": "охуевший от дедлайнов программист",
+        "tags": [
+          "urban",
+          "rough",
+          "domestic"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.6
+      },
+      {
+        "id": "fig28",
+        "text": "бухгалтерша с мёртвыми глазами",
+        "tags": [
+          "urban",
+          "rough",
+          "domestic"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "fig29",
+        "text": "секретарша, видавшая некоторое дерьмо",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "fig30",
+        "text": "начальник с лицом человека, которому всё пиздец как надоело",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "fig31",
+        "text": "спортсмен-любитель после третьего инфаркта",
+        "tags": [
+          "urban",
+          "rough",
+          "body"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "fig32",
+        "text": "художник, которого не берут ни в одну галерею",
+        "tags": [
+          "rough",
+          "literary"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "fig33",
+        "text": "поэт-неудачник с тремя подписчиками",
+        "tags": [
+          "rough",
+          "literary",
+          "domestic"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "fig34",
+        "text": "невъебенно уставший музыкант из перехода",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.6
+      },
+      {
+        "id": "fig35",
+        "text": "философ, дрочащий на Ницше",
+        "tags": [
+          "literary",
+          "rough",
+          "body"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
       }
     ],
     "quote_bridge": [
@@ -5630,6 +5734,229 @@
         "tone": "rough",
         "profanity": 0,
         "absurdity": 0.8
+      },
+      {
+        "id": "ank33",
+        "text": "Начальник вызвал всех на планёрку, встал, снял штаны и зачитал с листа",
+        "tags": [
+          "rough",
+          "body",
+          "urban"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "ank34",
+        "text": "Секретарша уронила папку, оттуда выпал единственный лист с текстом",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "ank35",
+        "text": "Бухгалтерша закрыла квартальный отчёт, выдохнула и написала заявление об увольнении со словами",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank36",
+        "text": "Программист три дня не спал, починил баг, и в коммит-сообщении написал",
+        "tags": [
+          "urban",
+          "rough",
+          "domestic"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank37",
+        "text": "В коде проекта, который пилили восемь лет, нашли комментарий",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank38",
+        "text": "Спортсмен пробежал марафон, упал на финише и прохрипел в камеру",
+        "tags": [
+          "rough",
+          "body"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "ank39",
+        "text": "Штангист поднял невъебенную штангу, охуел от собственной мощи и заорал",
+        "tags": [
+          "rough",
+          "body"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "ank40",
+        "text": "Художник три года писал картину, показал публике, и единственный отзыв был",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank41",
+        "text": "Поэт вышел на сцену, откашлялся и с пиздецовым надрывом продекламировал",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank42",
+        "text": "Музыкант настраивал гитару сорок минут, взял первый аккорд и спел",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "ank43",
+        "text": "Философ думал о смысле жизни семнадцать лет и пришёл к единственному выводу",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank44",
+        "text": "Учёные доказали, что залупой тоже можно думать — она подумала и выдала",
+        "tags": [
+          "rough",
+          "body",
+          "science"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 1.0
+      },
+      {
+        "id": "ank45",
+        "text": "Группа учёных из двенадцати стран после двадцати лет исследований опубликовала единственный вывод",
+        "tags": [
+          "science"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank46",
+        "text": "Британские учёные, блядь, наконец-то доказали главное",
+        "tags": [
+          "science",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "ank47",
+        "text": "Нейросеть обработала все знания человечества и выдала единственную фразу",
+        "tags": [
+          "science"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "ank48",
+        "text": "Установлен мировой рекорд: мужик орал в пустоту 47 часов подряд одну и ту же фразу",
+        "tags": [
+          "rough",
+          "body"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "ank49",
+        "text": "В книгу рекордов занесли самую бессмысленную фразу, произнесённую вслух",
+        "tags": [
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "ank50",
+        "text": "Побит рекорд по количеству раз, которые один человек повторил одно и то же — а повторял он",
+        "tags": [
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "ank51",
+        "text": "План по удлинению хуёв перевыполнен на 300%, на головке самого длинного выгравировано",
+        "tags": [
+          "rough",
+          "body"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 1.0
+      },
+      {
+        "id": "ank52",
+        "text": "Пятилетку выполнили за три года, на транспаранте написали",
+        "tags": [
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "ank53",
+        "text": "Отдел по производству пиздюлей отчитался о перевыполнении плана с формулировкой",
+        "tags": [
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.9
       }
     ],
     "animal": [
