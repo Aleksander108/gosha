@@ -101,6 +101,22 @@
       "required_slots": ["surface", "location", "inscribe_verb"],
       "compatible_packs": ["urban_trash", "entrance_surreal", "body_grotesque"],
       "weight": 1.0
+    },
+    {
+      "id": "animal_talk",
+      "name": "ЗВЕРЬЁ ГОВОРИТ",
+      "template": "{animal} {animal_situation} и {animal_speech}: «{input}».",
+      "required_slots": ["animal", "animal_situation", "animal_speech"],
+      "compatible_packs": ["urban_trash", "entrance_surreal", "body_grotesque", "provincial_science"],
+      "weight": 1.2
+    },
+    {
+      "id": "animal_fight",
+      "name": "ЗВЕРЬЁ ДЕРЁТСЯ",
+      "template": "{animal_pair} {animal_beef}, и {animal_result}: «{input}».",
+      "required_slots": ["animal_pair", "animal_beef", "animal_result"],
+      "compatible_packs": ["urban_trash", "entrance_surreal", "body_grotesque", "provincial_science"],
+      "weight": 1.2
     }
   ],
 
@@ -742,6 +758,91 @@
       {"id": "iv08", "text": "нахерачил углём", "tags": ["rough"], "tone": "rough", "profanity": 1},
       {"id": "iv09", "text": "нахуярил гвоздём", "tags": ["rough", "urban"], "tone": "rough", "profanity": 2},
       {"id": "iv10", "text": "наебенил баллончиком с душой", "tags": ["rough", "urban"], "tone": "rough", "profanity": 2}
+    ],
+
+    "animal": [
+      {"id": "ani01", "text": "Бухой кот с помойки", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 0, "absurdity": 0.6},
+      {"id": "ani02", "text": "Охуевший от жизни голубь", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 2, "absurdity": 0.7},
+      {"id": "ani03", "text": "Невъебенно жирный таракан", "tags": ["domestic", "rough", "animal"], "tone": "rough", "profanity": 2, "absurdity": 0.8},
+      {"id": "ani04", "text": "Бродячий пёс с оторванным ухом", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 0, "absurdity": 0.6},
+      {"id": "ani05", "text": "Опизденевшая от одиночества ворона", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 2, "absurdity": 0.7},
+      {"id": "ani06", "text": "Дворовый петух-террорист", "tags": ["provincial", "rough", "animal"], "tone": "rough", "profanity": 0, "absurdity": 0.7},
+      {"id": "ani07", "text": "Трёхлапая крыса из подвала", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 0, "absurdity": 0.7},
+      {"id": "ani08", "text": "Съебавшийся из зоопарка енот", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 2, "absurdity": 0.8},
+      {"id": "ani09", "text": "Блохастый бомж-кот Василий", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 0, "absurdity": 0.6},
+      {"id": "ani10", "text": "Охуительно наглая чайка", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 2, "absurdity": 0.7},
+      {"id": "ani11", "text": "Залупистый карась из мутного пруда", "tags": ["provincial", "rough", "animal", "body"], "tone": "rough", "profanity": 2, "absurdity": 0.8},
+      {"id": "ani12", "text": "Дрочащий на батарею хомяк", "tags": ["domestic", "rough", "animal", "body"], "tone": "rough", "profanity": 2, "absurdity": 0.9},
+      {"id": "ani13", "text": "Ёбнутый на всю голову попугай", "tags": ["domestic", "rough", "animal"], "tone": "rough", "profanity": 2, "absurdity": 0.7},
+      {"id": "ani14", "text": "Пиздец какой древний черепах из парка", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 2, "absurdity": 0.7},
+      {"id": "ani15", "text": "Одноглазый окунь из реки Мудянки", "tags": ["provincial", "rough", "animal"], "tone": "rough", "profanity": 1, "absurdity": 0.8}
+    ],
+
+    "animal_situation": [
+      {"id": "asit01", "text": "сожрал чью-то шаурму на остановке", "tags": ["urban", "rough"], "tone": "rough", "profanity": 0},
+      {"id": "asit02", "text": "поймал мышь, подумал", "tags": ["urban"], "tone": "neutral", "profanity": 0},
+      {"id": "asit03", "text": "нассал на чей-то порог", "tags": ["urban", "rough", "body"], "tone": "rough", "profanity": 0},
+      {"id": "asit04", "text": "упал с дерева, встал, отряхнулся", "tags": ["urban"], "tone": "rough", "profanity": 0},
+      {"id": "asit05", "text": "заполз в чью-то квартиру через вентиляцию", "tags": ["domestic", "rough"], "tone": "rough", "profanity": 0},
+      {"id": "asit06", "text": "три дня не жрал, вышел на крыльцо", "tags": ["provincial", "rough"], "tone": "rough", "profanity": 0},
+      {"id": "asit07", "text": "порвал пакет с мусором и нашёл там смысл жизни", "tags": ["urban", "rough"], "tone": "rough", "profanity": 0},
+      {"id": "asit08", "text": "сел на подоконник, посмотрел вниз на людей", "tags": ["domestic", "urban"], "tone": "neutral", "profanity": 0},
+      {"id": "asit09", "text": "обосрал чью-то машину", "tags": ["urban", "rough", "body"], "tone": "rough", "profanity": 1},
+      {"id": "asit10", "text": "пережил три зимы, два отравления и развод хозяев", "tags": ["domestic", "rough"], "tone": "rough", "profanity": 0},
+      {"id": "asit11", "text": "выебал подушку", "tags": ["domestic", "rough", "body"], "tone": "rough", "profanity": 2},
+      {"id": "asit12", "text": "спиздил сосиску со стола", "tags": ["domestic", "rough"], "tone": "rough", "profanity": 2}
+    ],
+
+    "animal_speech": [
+      {"id": "asp01", "text": "заорал", "tags": ["loud", "rough"], "tone": "rough", "profanity": 0},
+      {"id": "asp02", "text": "промяукал с надрывом", "tags": ["dramatic"], "tone": "rough", "profanity": 0},
+      {"id": "asp03", "text": "прокукарекал", "tags": ["loud"], "tone": "rough", "profanity": 0},
+      {"id": "asp04", "text": "прокаркал в пустоту", "tags": ["dramatic"], "tone": "rough", "profanity": 0},
+      {"id": "asp05", "text": "посмотрел в камеру и чётко произнёс", "tags": ["absurd", "tv"], "tone": "rough", "profanity": 0},
+      {"id": "asp06", "text": "гавкнул так, что все поняли", "tags": ["loud", "rough"], "tone": "rough", "profanity": 0},
+      {"id": "asp07", "text": "хрюкнул с философским видом", "tags": ["absurd"], "tone": "rough", "profanity": 0},
+      {"id": "asp08", "text": "пискнул предсмертным голосом", "tags": ["dramatic"], "tone": "rough", "profanity": 0},
+      {"id": "asp09", "text": "проблеял с выражением", "tags": ["absurd", "provincial"], "tone": "rough", "profanity": 0},
+      {"id": "asp10", "text": "курлыкнул в ебало прохожему", "tags": ["rough", "body", "urban"], "tone": "rough", "profanity": 2}
+    ],
+
+    "animal_pair": [
+      {"id": "apr01", "text": "Два бухих голубя", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 0},
+      {"id": "apr02", "text": "Кот и крыса из одного подвала", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 0},
+      {"id": "apr03", "text": "Три таракана с кухни", "tags": ["domestic", "rough", "animal"], "tone": "rough", "profanity": 0},
+      {"id": "apr04", "text": "Хомяк и морская свинка", "tags": ["domestic", "animal"], "tone": "neutral", "profanity": 0},
+      {"id": "apr05", "text": "Два облезлых пса у гаражей", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 0},
+      {"id": "apr06", "text": "Ворона и охуевший от наглости голубь", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 2},
+      {"id": "apr07", "text": "Жаба и уж на болоте", "tags": ["provincial", "animal"], "tone": "rough", "profanity": 0},
+      {"id": "apr08", "text": "Два невъебенно здоровых гуся", "tags": ["provincial", "rough", "animal"], "tone": "rough", "profanity": 2},
+      {"id": "apr09", "text": "Блоха и клещ на одной собаке", "tags": ["rough", "animal", "body"], "tone": "rough", "profanity": 0},
+      {"id": "apr10", "text": "Бомж-кот и его ёбаная тень", "tags": ["urban", "rough", "animal"], "tone": "rough", "profanity": 2}
+    ],
+
+    "animal_beef": [
+      {"id": "abf01", "text": "поспорили кто тут главный мудак", "tags": ["rough"], "tone": "rough", "profanity": 2},
+      {"id": "abf02", "text": "не поделили дохлую мышь", "tags": ["rough"], "tone": "rough", "profanity": 0},
+      {"id": "abf03", "text": "подрались за кусок колбасы", "tags": ["rough"], "tone": "rough", "profanity": 0},
+      {"id": "abf04", "text": "выясняли кто кого будет ебать", "tags": ["rough", "body"], "tone": "rough", "profanity": 2},
+      {"id": "abf05", "text": "три часа орали друг на друга", "tags": ["rough", "loud"], "tone": "rough", "profanity": 0},
+      {"id": "abf06", "text": "устроили пиздец на всю улицу", "tags": ["rough", "urban"], "tone": "rough", "profanity": 2},
+      {"id": "abf07", "text": "поспорили за территорию у мусорки", "tags": ["rough", "urban"], "tone": "rough", "profanity": 0},
+      {"id": "abf08", "text": "сцепились нахуй из-за корки хлеба", "tags": ["rough"], "tone": "rough", "profanity": 2},
+      {"id": "abf09", "text": "полчаса мерялись хуями", "tags": ["rough", "body"], "tone": "rough", "profanity": 2},
+      {"id": "abf10", "text": "довели друг друга до пиздастраданий", "tags": ["rough"], "tone": "rough", "profanity": 2}
+    ],
+
+    "animal_result": [
+      {"id": "ars01", "text": "проигравший обосрался и выдал", "tags": ["rough", "body"], "tone": "rough", "profanity": 1},
+      {"id": "ars02", "text": "победитель сел на жопу и изрёк", "tags": ["rough", "body"], "tone": "rough", "profanity": 1},
+      {"id": "ars03", "text": "она дала им обоим пизды и сказала", "tags": ["rough"], "tone": "rough", "profanity": 2},
+      {"id": "ars04", "text": "оба охуели, замолчали, и один прошептал", "tags": ["rough"], "tone": "rough", "profanity": 2},
+      {"id": "ars05", "text": "побеждённый встал с достоинством и заявил", "tags": ["rough"], "tone": "rough", "profanity": 0},
+      {"id": "ars06", "text": "третий, который просто мимо проходил, вздохнул и сказал", "tags": ["absurd"], "tone": "rough", "profanity": 0},
+      {"id": "ars07", "text": "оба сдохли от усталости, и последнее что прозвучало было", "tags": ["rough", "dramatic"], "tone": "rough", "profanity": 0},
+      {"id": "ars08", "text": "пришёл кот, наваляла всем, и пока уходил бросил", "tags": ["rough"], "tone": "rough", "profanity": 0},
+      {"id": "ars09", "text": "самый мелкий всех послал нахуй и провизжал", "tags": ["rough"], "tone": "rough", "profanity": 2},
+      {"id": "ars10", "text": "они помирились, обнялись и хором прокричали", "tags": ["absurd"], "tone": "rough", "profanity": 0}
     ],
 
     "amplifiers": [
