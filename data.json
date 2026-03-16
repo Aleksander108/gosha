@@ -745,13 +745,13 @@
       },
       {
         "id": "wp19",
-        "text": "В замурованной комнате коммуналки",
+        "text": "В замурованной комнате коммуналки, где никто не жил сорок ёбаных лет",
         "tags": [
           "domestic",
           "archaeology"
         ],
         "tone": "neutral",
-        "profanity": 0,
+        "profanity": 2,
         "absurdity": 0.7
       },
       {
@@ -980,13 +980,13 @@
       },
       {
         "id": "doc13",
-        "text": "служебную записку, которую замдиректора писал три месяца и так и не отправил",
+        "text": "служебную записку, которую замдиректора ебашил три месяца и так и не отправил",
         "tags": [
           "official",
           "bureaucratic"
         ],
         "tone": "neutral",
-        "profanity": 0,
+        "profanity": 2,
         "absurdity": 0.7
       },
       {
@@ -1255,13 +1255,13 @@
       },
       {
         "id": "src17",
-        "text": "рукописи неизвестного отшельника, от которой несло перегаром даже через триста лет",
+        "text": "рукописи отшельника-алкоголика, от которой несло перегаром даже через триста ёбаных лет",
         "tags": [
           "ancient",
           "rough"
         ],
         "tone": "rough",
-        "profanity": 0,
+        "profanity": 2,
         "absurdity": 0.8
       },
       {
@@ -2020,13 +2020,13 @@
       },
       {
         "id": "fig23",
-        "text": "лесник, не видевший людей семь лет",
+        "text": "лесник, не видевший людей семь ёбаных лет",
         "tags": [
           "provincial",
           "rough"
         ],
         "tone": "rough",
-        "profanity": 0,
+        "profanity": 2,
         "absurdity": 0.7
       },
       {
@@ -4616,13 +4616,13 @@
       },
       {
         "id": "evt05",
-        "text": "отключения горячей воды на полгода",
+        "text": "отключения горячей воды на полгода, ебать его за ногу",
         "tags": [
           "domestic",
           "urban"
         ],
         "tone": "rough",
-        "profanity": 0,
+        "profanity": 2,
         "absurdity": 0.5
       },
       {
@@ -4715,13 +4715,13 @@
       },
       {
         "id": "evt14",
-        "text": "смерти хомяка",
+        "text": "внезапной и нахуй необъяснимой смерти хомяка",
         "tags": [
           "domestic",
           "absurd"
         ],
         "tone": "rough",
-        "profanity": 0,
+        "profanity": 2,
         "absurdity": 0.7
       },
       {
@@ -4988,13 +4988,13 @@
       },
       {
         "id": "sc08",
-        "text": "в пьяных рыданиях на кухне",
+        "text": "в пьяных ёбаных рыданиях на кухне в четыре утра",
         "tags": [
           "domestic",
           "rough"
         ],
         "tone": "rough",
-        "profanity": 0
+        "profanity": 2
       },
       {
         "id": "sc09",
@@ -5709,13 +5709,13 @@
       },
       {
         "id": "ank35",
-        "text": "Бухгалтерша закрыла квартальный отчёт. Двадцать лет цифр. Выдохнула и написала заявление. Причина",
+        "text": "Бухгалтерша закрыла квартальный отчёт. Двадцать ёбаных лет цифр. Выдохнула и написала заявление. Причина",
         "tags": [
           "urban",
           "bureaucracy"
         ],
         "tone": "neutral",
-        "profanity": 0,
+        "profanity": 2,
         "absurdity": 0.7
       },
       {
@@ -5730,12 +5730,12 @@
       },
       {
         "id": "ank37",
-        "text": "Восемь лет проекту. Двести тысяч строк. Один комментарий",
+        "text": "Восемь ёбаных лет проекту. Двести тысяч строк. Один комментарий",
         "tags": [
           "urban"
         ],
         "tone": "neutral",
-        "profanity": 0,
+        "profanity": 2,
         "absurdity": 0.8
       },
       {
@@ -5783,12 +5783,12 @@
       },
       {
         "id": "ank42",
-        "text": "Музыкант настраивал гитару сорок минут. Зал ждал. Он взял один аккорд и спел единственную строчку",
+        "text": "Музыкант настраивал гитару сорок ёбаных минут. Зал ждал. Он взял один аккорд и спел единственную строчку",
         "tags": [
           "urban"
         ],
         "tone": "neutral",
-        "profanity": 0,
+        "profanity": 2,
         "absurdity": 0.7
       },
       {
@@ -5916,8 +5916,7 @@
         "text": "Бухой кот с помойки",
         "tags": [
           "urban",
-          "rough",
-          "animal"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0,
@@ -5925,23 +5924,22 @@
       },
       {
         "id": "ani02",
-        "text": "Охуевший от жизни голубь",
+        "text": "Голубь, охуевший от жизни настолько, что перестал летать",
         "tags": [
           "urban",
-          "rough",
-          "animal"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.7
+        "absurdity": 0.8
       },
       {
         "id": "ani03",
-        "text": "Невъебенно жирный таракан",
+        "text": "Таракан размером с хуй, которого боялся даже кот",
         "tags": [
+          "urban",
           "domestic",
-          "rough",
-          "animal"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2,
@@ -5952,8 +5950,7 @@
         "text": "Бродячий пёс с оторванным ухом",
         "tags": [
           "urban",
-          "rough",
-          "animal"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0,
@@ -5961,23 +5958,21 @@
       },
       {
         "id": "ani05",
-        "text": "Опизденевшая от одиночества ворона",
+        "text": "Ворона, орущая одно и то же с крыши каждый день, пока не охуела от собственного голоса",
         "tags": [
           "urban",
-          "rough",
-          "animal"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.7
+        "absurdity": 0.8
       },
       {
         "id": "ani06",
         "text": "Дворовый петух-террорист",
         "tags": [
-          "provincial",
-          "rough",
-          "animal"
+          "urban",
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0,
@@ -5987,33 +5982,28 @@
         "id": "ani07",
         "text": "Трёхлапая крыса из подвала",
         "tags": [
-          "urban",
-          "rough",
-          "animal"
+          "urban"
         ],
         "tone": "rough",
         "profanity": 0,
-        "absurdity": 0.7
+        "absurdity": 0.6
       },
       {
         "id": "ani08",
         "text": "Съебавшийся из зоопарка енот",
         "tags": [
           "urban",
-          "rough",
-          "animal"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.8
+        "absurdity": 0.7
       },
       {
         "id": "ani09",
         "text": "Блохастый бомж-кот Василий",
         "tags": [
-          "urban",
-          "rough",
-          "animal"
+          "urban"
         ],
         "tone": "rough",
         "profanity": 0,
@@ -6021,28 +6011,25 @@
       },
       {
         "id": "ani10",
-        "text": "Охуительно наглая чайка",
+        "text": "Чайка, которая спиздила шаурму у мужика и сожрала, глядя ему в ебало",
         "tags": [
           "urban",
-          "rough",
-          "animal"
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.9
+      },
+      {
+        "id": "ani11",
+        "text": "Карась из мутного пруда, которого хуй поймаешь",
+        "tags": [
+          "provincial",
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2,
         "absurdity": 0.7
-      },
-      {
-        "id": "ani11",
-        "text": "Залупистый карась из мутного пруда",
-        "tags": [
-          "provincial",
-          "rough",
-          "animal",
-          "body"
-        ],
-        "tone": "rough",
-        "profanity": 2,
-        "absurdity": 0.8
       },
       {
         "id": "ani12",
@@ -6050,20 +6037,18 @@
         "tags": [
           "domestic",
           "rough",
-          "animal",
           "body"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.9
+        "absurdity": 0.8
       },
       {
         "id": "ani13",
-        "text": "Ёбнутый на всю голову попугай",
+        "text": "Попугай, ёбнутый на всю голову от рождения",
         "tags": [
           "domestic",
-          "rough",
-          "animal"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2,
@@ -6071,26 +6056,25 @@
       },
       {
         "id": "ani14",
-        "text": "Пиздец какой древний черепах из парка",
+        "text": "Черепаха из парка, которой сто двадцать лет и ей давно похуй",
         "tags": [
           "urban",
           "rough",
-          "animal"
+          "philosophical"
         ],
         "tone": "rough",
         "profanity": 2,
-        "absurdity": 0.7
+        "absurdity": 0.9
       },
       {
         "id": "ani15",
-        "text": "Одноглазый окунь из реки Мудянки",
+        "text": "Одноглазый окунь, выживший в реке, где давно сдохло всё нахуй",
         "tags": [
           "provincial",
-          "rough",
-          "animal"
+          "rough"
         ],
         "tone": "rough",
-        "profanity": 1,
+        "profanity": 2,
         "absurdity": 0.8
       }
     ],
@@ -6099,8 +6083,7 @@
         "id": "asit01",
         "text": "сожрал чью-то шаурму на остановке",
         "tags": [
-          "urban",
-          "rough"
+          "urban"
         ],
         "tone": "rough",
         "profanity": 0
@@ -6119,8 +6102,7 @@
         "text": "нассал на чей-то порог",
         "tags": [
           "urban",
-          "rough",
-          "body"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0
@@ -6131,25 +6113,23 @@
         "tags": [
           "urban"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "asit05",
         "text": "заполз в чью-то квартиру через вентиляцию",
         "tags": [
-          "domestic",
-          "rough"
+          "domestic"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "asit06",
         "text": "три дня не жрал, вышел на крыльцо",
         "tags": [
-          "provincial",
-          "rough"
+          "urban"
         ],
         "tone": "rough",
         "profanity": 0
@@ -6159,28 +6139,26 @@
         "text": "порвал пакет с мусором и нашёл там смысл жизни",
         "tags": [
           "urban",
-          "rough"
+          "philosophical"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "asit08",
         "text": "сел на подоконник, посмотрел вниз на людей",
         "tags": [
-          "domestic",
-          "urban"
+          "domestic"
         ],
         "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "asit09",
-        "text": "обосрал чью-то машину",
+        "text": "обосрал чью-то машину с хирургической точностью",
         "tags": [
           "urban",
-          "rough",
-          "body"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 1
@@ -6189,15 +6167,14 @@
         "id": "asit10",
         "text": "пережил три зимы, два отравления и развод хозяев",
         "tags": [
-          "domestic",
-          "rough"
+          "domestic"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "asit11",
-        "text": "выебал подушку",
+        "text": "выебал подушку, устал и сел",
         "tags": [
           "domestic",
           "rough",
@@ -6220,9 +6197,8 @@
     "animal_speech": [
       {
         "id": "asp01",
-        "text": "заорал",
+        "text": "заорал так, что все замолчали",
         "tags": [
-          "loud",
           "rough"
         ],
         "tone": "rough",
@@ -6232,16 +6208,16 @@
         "id": "asp02",
         "text": "промяукал с надрывом",
         "tags": [
-          "dramatic"
+          "rough"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "asp03",
-        "text": "прокукарекал",
+        "text": "прокукарекал в четыре утра не своим голосом",
         "tags": [
-          "loud"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0
@@ -6250,26 +6226,24 @@
         "id": "asp04",
         "text": "прокаркал в пустоту",
         "tags": [
-          "dramatic"
+          "philosophical"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "asp05",
         "text": "посмотрел в камеру и чётко произнёс",
         "tags": [
-          "absurd",
-          "tv"
+          "philosophical"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "asp06",
         "text": "гавкнул так, что все поняли",
         "tags": [
-          "loud",
           "rough"
         ],
         "tone": "rough",
@@ -6279,16 +6253,16 @@
         "id": "asp07",
         "text": "хрюкнул с философским видом",
         "tags": [
-          "absurd"
+          "philosophical"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "asp08",
         "text": "пискнул предсмертным голосом",
         "tags": [
-          "dramatic"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0
@@ -6297,19 +6271,16 @@
         "id": "asp09",
         "text": "проблеял с выражением",
         "tags": [
-          "absurd",
-          "provincial"
+          "rough"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "asp10",
         "text": "курлыкнул в ебало прохожему",
         "tags": [
-          "rough",
-          "body",
-          "urban"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2
@@ -6320,9 +6291,7 @@
         "id": "apr01",
         "text": "Два бухих голубя",
         "tags": [
-          "urban",
-          "rough",
-          "animal"
+          "urban"
         ],
         "tone": "rough",
         "profanity": 0
@@ -6331,30 +6300,25 @@
         "id": "apr02",
         "text": "Кот и крыса из одного подвала",
         "tags": [
-          "urban",
-          "rough",
-          "animal"
+          "urban"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "apr03",
         "text": "Три таракана с кухни",
         "tags": [
-          "domestic",
-          "rough",
-          "animal"
+          "domestic"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "apr04",
-        "text": "Хомяк и морская свинка",
+        "text": "Хомяк и морская свинка, ненавидящие друг друга третий год",
         "tags": [
-          "domestic",
-          "animal"
+          "domestic"
         ],
         "tone": "neutral",
         "profanity": 0
@@ -6364,8 +6328,7 @@
         "text": "Два облезлых пса у гаражей",
         "tags": [
           "urban",
-          "rough",
-          "animal"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0
@@ -6375,8 +6338,7 @@
         "text": "Ворона и охуевший от наглости голубь",
         "tags": [
           "urban",
-          "rough",
-          "animal"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2
@@ -6385,19 +6347,17 @@
         "id": "apr07",
         "text": "Жаба и уж на болоте",
         "tags": [
-          "provincial",
-          "animal"
+          "provincial"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "apr08",
-        "text": "Два невъебенно здоровых гуся",
+        "text": "Два гуся, здоровых как ебучие собаки",
         "tags": [
           "provincial",
-          "rough",
-          "animal"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2
@@ -6406,11 +6366,9 @@
         "id": "apr09",
         "text": "Блоха и клещ на одной собаке",
         "tags": [
-          "rough",
-          "animal",
-          "body"
+          "domestic"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
@@ -6419,7 +6377,7 @@
         "tags": [
           "urban",
           "rough",
-          "animal"
+          "philosophical"
         ],
         "tone": "rough",
         "profanity": 2
@@ -6467,18 +6425,17 @@
         "id": "abf05",
         "text": "три часа орали друг на друга",
         "tags": [
-          "rough",
-          "loud"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0
       },
       {
         "id": "abf06",
-        "text": "устроили пиздец на всю улицу",
+        "text": "устроили такой пиздец, что вызвали полицию",
         "tags": [
-          "rough",
-          "urban"
+          "urban",
+          "rough"
         ],
         "tone": "rough",
         "profanity": 2
@@ -6487,8 +6444,8 @@
         "id": "abf07",
         "text": "поспорили за территорию у мусорки",
         "tags": [
-          "rough",
-          "urban"
+          "urban",
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0
@@ -6527,8 +6484,7 @@
         "id": "ars01",
         "text": "проигравший обосрался и выдал",
         "tags": [
-          "rough",
-          "body"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 1
@@ -6537,15 +6493,14 @@
         "id": "ars02",
         "text": "победитель сел на жопу и изрёк",
         "tags": [
-          "rough",
-          "body"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 1
       },
       {
         "id": "ars03",
-        "text": "она дала им обоим пизды и сказала",
+        "text": "пришла кошка, дала обоим пизды и сказала",
         "tags": [
           "rough"
         ],
@@ -6565,33 +6520,32 @@
         "id": "ars05",
         "text": "побеждённый встал с достоинством и заявил",
         "tags": [
-          "rough"
+          "philosophical"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "ars06",
         "text": "третий, который просто мимо проходил, вздохнул и сказал",
         "tags": [
-          "absurd"
+          "philosophical"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       },
       {
         "id": "ars07",
         "text": "оба сдохли от усталости, и последнее что прозвучало было",
         "tags": [
-          "rough",
-          "dramatic"
+          "rough"
         ],
         "tone": "rough",
         "profanity": 0
       },
       {
         "id": "ars08",
-        "text": "пришёл кот, наваляла всем, и пока уходил бросил",
+        "text": "пришёл кот, навалял всем и на выходе бросил",
         "tags": [
           "rough"
         ],
@@ -6611,9 +6565,9 @@
         "id": "ars10",
         "text": "они помирились, обнялись и хором прокричали",
         "tags": [
-          "absurd"
+          "philosophical"
         ],
-        "tone": "rough",
+        "tone": "neutral",
         "profanity": 0
       }
     ],
@@ -8183,13 +8137,13 @@
       },
       {
         "id": "sds16",
-        "text": "На днище кастрюли после кипячения проявилось послание. Повариха прочитала и уволилась. Там было",
+        "text": "На днище кастрюли после кипячения проявилось послание. Повариха прочитала и уволилась нахуй. Там было",
         "tags": [
           "domestic",
           "philosophical"
         ],
         "tone": "neutral",
-        "profanity": 0,
+        "profanity": 2,
         "absurdity": 0.9
       },
       {
@@ -8472,24 +8426,24 @@
       },
       {
         "id": "sds42",
-        "text": "Трубу прорвало в четвёртый раз. Сантехник Степан сел прямо в лужу и тихо сказал",
+        "text": "Трубу прорвало в четвёртый раз. Сантехник Степан сел в ёбаную лужу и тихо сказал",
         "tags": [
           "domestic",
           "philosophical"
         ],
         "tone": "rough",
-        "profanity": 0,
+        "profanity": 2,
         "absurdity": 0.7
       },
       {
         "id": "sds43",
-        "text": "Третья микроволновка за месяц загорелась в среду. Электрик Борис даже не встал. Просто сказал",
+        "text": "Третья ёбаная микроволновка за месяц загорелась в среду. Электрик Борис даже не встал. Просто сказал",
         "tags": [
           "domestic",
           "philosophical"
         ],
         "tone": "neutral",
-        "profanity": 0,
+        "profanity": 2,
         "absurdity": 0.8
       },
       {
