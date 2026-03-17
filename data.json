@@ -365,6 +365,9 @@
         "quote_bridge": [
           "inscription",
           "ancient_text"
+        ],
+        "find_verb": [
+          "archaeology"
         ]
       }
     },
@@ -451,6 +454,10 @@
         ],
         "carrier": [
           "trash"
+        ],
+        "find_verb": [
+          "urban",
+          "rough"
         ]
       }
     },
@@ -492,6 +499,10 @@
         ],
         "figure": [
           "science"
+        ],
+        "find_verb": [
+          "provincial",
+          "archaeology"
         ]
       }
     },
@@ -513,6 +524,9 @@
         "carrier": [
           "artifact",
           "museum"
+        ],
+        "find_verb": [
+          "archaeology"
         ]
       }
     },
@@ -556,6 +570,10 @@
         ],
         "object": [
           "domestic"
+        ],
+        "find_verb": [
+          "domestic",
+          "urban"
         ]
       }
     }
@@ -2487,9 +2505,10 @@
       },
       {
         "id": "fv04",
-        "text": "один рыбак выудил",
+        "text": "один мужик раскопал руками",
         "tags": [
-          "provincial"
+          "archaeology",
+          "urban"
         ],
         "tone": "neutral",
         "profanity": 0
@@ -2543,28 +2562,31 @@
       },
       {
         "id": "fv10",
-        "text": "выблевал пылесос",
+        "text": "вытряхнули из щели",
         "tags": [
-          "domestic"
+          "domestic",
+          "urban",
+          "archaeology"
         ],
         "tone": "rough",
         "profanity": 0
       },
       {
         "id": "fv11",
-        "text": "принесла чья-то собака",
+        "text": "кто-то выволок на свет",
         "tags": [
-          "urban"
+          "urban",
+          "archaeology"
         ],
         "tone": "rough",
         "profanity": 0
       },
       {
         "id": "fv12",
-        "text": "один сантехник, матерясь, достал из-за унитаза",
+        "text": "один мужик, матерясь, выдернул из-под завала",
         "tags": [
-          "domestic",
-          "rough"
+          "urban",
+          "archaeology"
         ],
         "tone": "rough",
         "profanity": 0
