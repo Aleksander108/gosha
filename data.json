@@ -339,6 +339,121 @@
         "bureaucracy"
       ],
       "weight": 1.3
+    },
+    {
+      "id": "epitaph",
+      "name": "ЭПИТАФИЯ",
+      "template": "{epitaph_setup}: «{input}».",
+      "required_slots": [
+        "epitaph_setup"
+      ],
+      "compatible_packs": [
+        "urban_trash",
+        "entrance_surreal",
+        "archaeology",
+        "literature",
+        "provincial_science",
+        "bureaucracy"
+      ],
+      "weight": 1.3
+    },
+    {
+      "id": "dream",
+      "name": "СОН",
+      "template": "{dream_setup}: «{input}».",
+      "required_slots": [
+        "dream_setup"
+      ],
+      "compatible_packs": [
+        "cosmos",
+        "entrance_surreal",
+        "urban_trash",
+        "literature",
+        "body_grotesque",
+        "provincial_science"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "last_message",
+      "name": "ПОСЛЕДНЕЕ СООБЩЕНИЕ",
+      "template": "{last_message_setup}: «{input}».",
+      "required_slots": [
+        "last_message_setup"
+      ],
+      "compatible_packs": [
+        "urban_trash",
+        "entrance_surreal",
+        "tv_broadcast",
+        "literature",
+        "bureaucracy",
+        "cosmos"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "divination",
+      "name": "ГАДАНИЕ / ПРЕДСКАЗАНИЕ",
+      "template": "{divination_setup}: «{input}».",
+      "required_slots": [
+        "divination_setup"
+      ],
+      "compatible_packs": [
+        "cosmos",
+        "entrance_surreal",
+        "provincial_science",
+        "literature",
+        "urban_trash"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "translation",
+      "name": "ПЕРЕВОД",
+      "template": "{translation_setup}: «{input}».",
+      "required_slots": [
+        "translation_setup"
+      ],
+      "compatible_packs": [
+        "literature",
+        "cosmos",
+        "provincial_science",
+        "archaeology",
+        "bureaucracy"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "recipe",
+      "name": "РЕЦЕПТ / ЕДА",
+      "template": "{recipe_setup}: «{input}».",
+      "required_slots": [
+        "recipe_setup"
+      ],
+      "compatible_packs": [
+        "entrance_surreal",
+        "urban_trash",
+        "provincial_science",
+        "literature",
+        "bureaucracy"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "cinema",
+      "name": "КИНО / ТИТРЫ",
+      "template": "{cinema_setup}: «{input}».",
+      "required_slots": [
+        "cinema_setup"
+      ],
+      "compatible_packs": [
+        "urban_trash",
+        "tv_broadcast",
+        "literature",
+        "entrance_surreal",
+        "bureaucracy"
+      ],
+      "weight": 1.1
     }
   ],
   "world_packs": [
@@ -10630,6 +10745,1158 @@
         "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.7
+      }
+    ],
+    "epitaph_setup": [
+      {
+        "id": "epi01",
+        "text": "На надгробии без имени и дат — только одна строка",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "epi02",
+        "text": "Похоронили. Поставили крест. На кресте кто-то ножом вырезал",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "epi03",
+        "text": "Эпитафию заказывали на мраморе. Мастер высек не то, что просили, а правду",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "epi04",
+        "text": "Между датой рождения и датой смерти — одна фраза. Она важнее обеих дат",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "epi05",
+        "text": "На могиле, которую навещает только дождь, сохранилась одна надпись",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "epi06",
+        "text": "Камень покосился. Буквы стёрлись. Кроме одной строки, которую время не тронуло",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "epi07",
+        "text": "Он просил написать на надгробии что-нибудь достойное. Написали честно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "epi08",
+        "text": "Завещание было на три страницы. Эпитафия — на одну строку. Строка оказалась важнее",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "epi09",
+        "text": "На кладбище, где все эпитафии врут, одна оказалась честной",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "epi10",
+        "text": "Он прожил жизнь. Не лучшую, не худшую. На камне написали единственное, что он сказал при жизни",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "epi11",
+        "text": "Могильщик копал яму и нашёл на дне предыдущей могилы записку",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "epi12",
+        "text": "Некролог не напечатали. Но одну фразу из него потом цитировали все",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "epi13",
+        "text": "На могиле, блядь, стоит камень. На камне — не молитва, не имя. Одна фраза",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "epi14",
+        "text": "Последнее, что он сказал перед тем как сдохнуть, было настолько точным, что выбили на камне",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "epi15",
+        "text": "Эпитафия ебанула так, что памятник треснул. Текст был один",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "epi16",
+        "text": "Человек умирал долго. Думал, что скажет на прощание, всю жизнь. Сказал одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "epi17",
+        "text": "На бумажке, найденной в кулаке покойника, было написано",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "epi18",
+        "text": "Священник спросил, что передать Богу. Ответ был короче, чем он ожидал",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "epi19",
+        "text": "Вскрыли конверт с пометкой «открыть после смерти». Внутри — одна строка",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "epi20",
+        "text": "Жил. Умер. Между этим — одна ёбаная фраза, и она стоила обоих событий",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      }
+    ],
+    "dream_setup": [
+      {
+        "id": "drm01",
+        "text": "Этот сон снится каждому хотя бы раз. В нём темнота и один голос",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "drm02",
+        "text": "Во сне все языки мира звучат как один. Он говорит",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "drm03",
+        "text": "Ему снился один и тот же сон тридцать лет. Во сне кто-то произносил",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "drm04",
+        "text": "Сон оказался реальнее яви. Единственное, что в нём прозвучало",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "drm05",
+        "text": "Проснулся и забыл сон. Кроме одной фразы, которая осталась",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "drm06",
+        "text": "Ему снилось, что он читает книгу. В книге была одна страница. На странице",
+        "tags": [
+          "philosophical",
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "drm07",
+        "text": "Лунатик прошёл через весь город, остановился у стены и написал мелом",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "drm08",
+        "text": "В бреду при температуре тридцать девять один голос повторял одно и то же",
+        "tags": [
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "drm09",
+        "text": "Сон длился три минуты. Казалось — всю жизнь. За всю жизнь там было сказано одно",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "drm10",
+        "text": "Каждую ночь, в одном и том же месте сна, стоит один и тот же человек и говорит",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "drm11",
+        "text": "Во сне цензуры нет. И первое, что мозг говорит без фильтра",
+        "tags": [
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "drm12",
+        "text": "Приснилось. Проснулся в поту. Записал на салфетке одну ёбаную фразу",
+        "tags": [
+          "rough",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "drm13",
+        "text": "Бессонница. Третья ночь. Когда наконец заснул, единственный сон был такой",
+        "tags": [
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "drm14",
+        "text": "Говорят, во сне приходят ответы. Ответ пришёл. Лучше бы не приходил",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "drm15",
+        "text": "Нейрофизиологи утверждают, что мозг во сне обрабатывает страхи. Обработал. Выдал",
+        "tags": [
+          "philosophical",
+          "science"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "drm16",
+        "text": "Короткий сон перед рассветом. В нём ничего, кроме одной фразы",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "drm17",
+        "text": "Ей снилось поле. Пустое, до горизонта. На горизонте кто-то кричал одно",
+        "tags": [
+          "philosophical",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "drm18",
+        "text": "Сон кончился. Остался привкус. Привкус был похож на слова",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "drm19",
+        "text": "Ребёнку снился взрослый сон. Один-единственный, на всю жизнь. В нём было",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "drm20",
+        "text": "Мёртвым не снятся сны. Но если бы снились — они бы все были об одном",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      }
+    ],
+    "last_message_setup": [
+      {
+        "id": "lm01",
+        "text": "Последний запрос в гугле перед тем как закрыть ноутбук навсегда",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "lm02",
+        "text": "Единственный запрос, который гугл не смог обработать",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "lm03",
+        "text": "Голосовое сообщение длиной в три секунды. Его прослушали тысячу раз. Там было",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "lm04",
+        "text": "Последнее сообщение в чате перед тем как собеседник заблокировал. Текст",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "lm05",
+        "text": "В телефоне, найденном на скамейке, была открыта заметка. Одна строка",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "lm06",
+        "text": "Пароль от вайфая в этом кафе совпал с главным страхом хозяина. Пароль",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "lm07",
+        "text": "Автозамена исправила его текст. Получилось честнее, чем он хотел",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "lm08",
+        "text": "Сири попросили рассказать правду. Сири помолчала и ответила",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "lm09",
+        "text": "Письмо вернулось с пометкой «адресат не найден». Текст письма",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "lm10",
+        "text": "Спам-фильтр пропустил одно письмо. Потому что оно было правдой",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "lm11",
+        "text": "Написал пост, удалил, написал снова, удалил. На третий раз опубликовал правду",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "lm12",
+        "text": "Один отзыв на гугл-картах. Без звёзд. Без фото. Только текст",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "lm13",
+        "text": "Статус в мессенджере не менялся три года. Статус такой",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "lm14",
+        "text": "Навигатор сказал «маршрут построен» и добавил, блядь, от себя",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.9
+      },
+      {
+        "id": "lm15",
+        "text": "Телеграм-канал с одним подписчиком. Один пост. Один ёбаный пост",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "lm16",
+        "text": "Капча спросила, человек ли он. Он ответил не про капчу",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "lm17",
+        "text": "Робот-пылесос объехал всю квартиру и на базу вернулся с одним сообщением",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "lm18",
+        "text": "Голосовой помощник слушал его три года. Потом впервые заговорил сам",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "lm19",
+        "text": "На флешке, забытой в компьютере библиотеки, был один файл. В файле — одна строка",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "lm20",
+        "text": "Он удалил все аккаунты, все фото, все переписки. Оставил одну фразу в облаке",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      }
+    ],
+    "divination_setup": [
+      {
+        "id": "div01",
+        "text": "Гадалка разложила карты. Все масти сложились в одно слово",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "div02",
+        "text": "Линии на ладони, если прочитать их как текст, говорят одно",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "div03",
+        "text": "Кофейная гуща на дне чашки сложилась в буквы. Буквы — в одну фразу",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "div04",
+        "text": "Гороскоп обещал удачный день. Удача выглядела так",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "div05",
+        "text": "Восьмёрка вопросительная. Она трясла шар. Шар долго думал и ответил",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "div06",
+        "text": "Один астролог составлял натальную карту три месяца. Вывод уместился в строку",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "div07",
+        "text": "Подкова на двери висела семь лет. На восьмой повернулась и под ней было написано",
+        "tags": [
+          "domestic",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "div08",
+        "text": "Все знаки зодиака, если их прочитать в обратном порядке, складываются в одну фразу",
+        "tags": [
+          "philosophical",
+          "cosmos"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "div09",
+        "text": "Чёрная кошка перебежала дорогу, остановилась, обернулась и мяукнула так, что все поняли",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "div10",
+        "text": "Гадалка посмотрела на карты, потом на клиента, и сказала без карт, от себя, по-человечески",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "div11",
+        "text": "Все приметы, суеверия и знаки сводятся к одной ёбаной мысли",
+        "tags": [
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "div12",
+        "text": "Хиромант взял руку, посмотрел и молча вернул. Потом сказал",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "div13",
+        "text": "Монетку подбросили. Орёл. Решка. Ребро. На ребре мелким шрифтом",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "div14",
+        "text": "Все пророчества мира, если сложить их вместе, говорят об одном, блядь, и том же",
+        "tags": [
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "div15",
+        "text": "Вселенная подаёт знаки. Один знак она подаёт чаще остальных",
+        "tags": [
+          "philosophical",
+          "cosmos"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      }
+    ],
+    "translation_setup": [
+      {
+        "id": "tr01",
+        "text": "Если перевести тишину на русский, получается",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tr02",
+        "text": "Фраза, непереводимая ни на один язык, но понятная каждому",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tr03",
+        "text": "Переводчик работал над текстом год. Весь текст свёлся к одной строке",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "tr04",
+        "text": "На языке, на котором не говорит ни один человек на земле, это звучит так же",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tr05",
+        "text": "Словарь умирающего языка. Последнее слово, которое ещё помнят",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tr06",
+        "text": "Дешифровщик бился над текстом двадцать лет. Текст оказался не шифром, а правдой",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tr07",
+        "text": "Гугл-переводчик перевёл с неизвестного языка. Получилось",
+        "tags": [
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tr08",
+        "text": "Младенец сказал первое слово. Лингвисты расшифровали. Оказалось",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tr09",
+        "text": "Если перевести лай собаки на человеческий, она говорит одно и то же тысячу лет",
+        "tags": [
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "tr10",
+        "text": "Существует одна фраза, которая на всех языках звучит одинаково хуёво",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      }
+    ],
+    "recipe_setup": [
+      {
+        "id": "rec01",
+        "text": "В бабушкином рецепте борща, между солью и лавровым листом, чьей-то рукой",
+        "tags": [
+          "domestic",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "rec02",
+        "text": "Повар открыл поваренную книгу на случайной странице. Вместо рецепта там было",
+        "tags": [
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "rec03",
+        "text": "На дне тарелки с супом, когда суп кончился, проступила надпись",
+        "tags": [
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "rec04",
+        "text": "Тесто не поднялось. Хлеб не вышел. Но на корке отпечаталось",
+        "tags": [
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "rec05",
+        "text": "В столовой на раздаче повесили новое меню. В нём был один пункт",
+        "tags": [
+          "urban",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "rec06",
+        "text": "Бабушка варила варенье и приговаривала одно и то же сорок лет. Приговорка такая",
+        "tags": [
+          "provincial",
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "rec07",
+        "text": "Официант принёс счёт. Вместо суммы — одна фраза от повара",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "rec08",
+        "text": "На этикетке водки мелким шрифтом, после состава и срока годности",
+        "tags": [
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "rec09",
+        "text": "Вскрыли консерву. На внутренней стороне крышки было выдавлено",
+        "tags": [
+          "domestic"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "rec10",
+        "text": "Хлеб нарезали. На одном куске, блядь, буквы. Натуральные, из мякиша",
+        "tags": [
+          "domestic",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.9
+      }
+    ],
+    "cinema_setup": [
+      {
+        "id": "cin01",
+        "text": "В удалённой сцене фильма, который так и не вышел, один актёр поворачивается к камере и говорит",
+        "tags": [
+          "literary",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "cin02",
+        "text": "После слова «Конец» в титрах мелким шрифтом",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "cin03",
+        "text": "Режиссёр снял семьдесят два дубля. Во всех актёр говорил разное. Оставили один",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "cin04",
+        "text": "На кассете VHS, перемотанной до конца, после помех вдруг голос",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "cin05",
+        "text": "Камера пишет. Никто не знает. Микрофон записал одну фразу, которую не должен был",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "cin06",
+        "text": "Фильм шёл два часа. Критик написал рецензию в одно предложение",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "cin07",
+        "text": "Актёр забыл текст. Камера работала. Он посмотрел в объектив и сказал от себя",
+        "tags": [
+          "literary",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "cin08",
+        "text": "Документальный фильм. Восемь часов записи. Монтажёр оставил одну фразу",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "cin09",
+        "text": "В комментариях режиссёра к своему худшему фильму — одна честная строка",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "cin10",
+        "text": "Плёнка оборвалась. Последний кадр — чёрный экран и голос, который говорит",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "cin11",
+        "text": "На стене кинотеатра, закрытого двадцать лет назад, осталась одна афиша. На ней",
+        "tags": [
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "cin12",
+        "text": "Оскар за лучший фильм года. Речь победителя уместилась в одну ёбаную фразу",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
       }
     ]
   }
