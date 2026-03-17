@@ -8950,6 +8950,1664 @@
         "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.8
+      },
+      {
+        "id": "poe36",
+        "text": "Вещь, которую нахуй невозможно перевести ни на один язык, но все понимают",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe37",
+        "text": "Каждый из нас — автор одной книги. В ней одна строка",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe38",
+        "text": "Слова стоят дороже дел. Особенно одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe39",
+        "text": "Из всех потерь потеря времени — главная. Время знало это и сказало",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe40",
+        "text": "Чем длиннее разлука, тем короче фраза. Самая короткая",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe41",
+        "text": "Тело стареет. Язык — нет. Он всё так же точно произносит одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe42",
+        "text": "Лучшее, что можно сделать с пустотой — дать ей голос. Она говорит",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe43",
+        "text": "Город спит. Не спит только одна строка, написанная кем-то на стене",
+        "tags": [
+          "literary",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe44",
+        "text": "Будущее наступило и оказалось одной фразой",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe45",
+        "text": "Из всех звуков, на которые способен человек, самый честный",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe46",
+        "text": "Каждый второй стих — о смерти. Каждый первый — о том, что ещё хуже",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe47",
+        "text": "Река не знает, куда течёт. Но знает, что скажет в устье",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe48",
+        "text": "Не то чтобы мир несправедлив. Он просто точен. И точность его такова",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe49",
+        "text": "Из двух зол язык выбирает оба и произносит одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe50",
+        "text": "Если ад существует, в нём нет огня — только одна фраза, звучащая вечно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe51",
+        "text": "Пространство не лечит. Время не лечит. Лечит одна ёбаная фраза, никому не нужная",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe52",
+        "text": "Жизнь — это пиздец, описанный интеллигентным языком. Описание такое",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe53",
+        "text": "Чем старше, тем меньше слов. В конце остаётся одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe54",
+        "text": "Мрамор крошится. Бронза зеленеет. Остаётся только текст",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe55",
+        "text": "Разница между трагедией и комедией — интонация. Фраза одна",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe56",
+        "text": "Снег заметает следы. Ветер стирает голоса. Остаётся одна строка",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe57",
+        "text": "Страх — самый точный переводчик. Он переводит всё на один язык",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe58",
+        "text": "В будущем поставят памятник одной фразе. Она того стоит",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe59",
+        "text": "Глаз привыкает к темноте. Ухо — к тишине. Язык — к одному",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe60",
+        "text": "В конечном счёте всё — инерция. И у инерции один текст",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe61",
+        "text": "Если Бог — не ответ, а вопрос, то вопрос звучит так",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe62",
+        "text": "Географии плевать на наши чувства. Но на каждой карте — одна надпись",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe63",
+        "text": "Империя сгнила. Блядь, а фраза осталась свежей",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe64",
+        "text": "Самое точное — не стихи и не проза. Самое точное — одна строка на стене сортира",
+        "tags": [
+          "literary",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe65",
+        "text": "Поэзия — не когда красиво. А когда точно. Вот самая точная строка",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe66",
+        "text": "Промотал, прогулял, просрал. Но одну фразу — сохранил",
+        "tags": [
+          "literary"
+        ],
+        "tone": "rough",
+        "profanity": 1,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe67",
+        "text": "На полях рукописи, рядом с рисунком женского профиля, мелким почерком",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe68",
+        "text": "Пока перо не коснулось бумаги, было ещё не поздно. Коснулось — и вышло",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe69",
+        "text": "Лёгкость пера обманчива — оно всегда пишет правду. Правда такая",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe70",
+        "text": "Сюжет был прост: один человек сказал одну вещь — и этого хватило на роман",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe71",
+        "text": "Черновик, второй черновик, третий. На четвёртом сдался и написал правду",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe72",
+        "text": "Любовное письмо было скомкано, разглажено и скомкано снова. Текст не изменился",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe73",
+        "text": "Барин проигрался в карты, велел закладывать тройку и крикнул ямщику одно",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe74",
+        "text": "Так и стоял с бокалом в руке, забыв тост. Потому что правда проще",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe75",
+        "text": "Он прожил жизнь, достойную эпоса. Но эпитафия уместилась в строку",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe76",
+        "text": "Судьба постучала, он открыл. За дверью стояла одна фраза",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe77",
+        "text": "Гений — это когда в тысяче строк одна настоящая. Вот она",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe78",
+        "text": "Редактор зачеркнул всё, кроме одного предложения. Его и напечатали",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe79",
+        "text": "После бала, после дуэли, после всего — в кармане нашли записку",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe80",
+        "text": "Среди ста томов один карандашный подчёрк на полях. Там было",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe81",
+        "text": "Роман дописан. Последняя строка оказалась первой правдой",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe82",
+        "text": "Ох, тяжела шапка Мономаха, но тяжелее — одна мысль",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe83",
+        "text": "Из всех глав, написанных по-русски, самая короткая и самая честная",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe84",
+        "text": "Ответом на все вопросы судьбы служила одна записка",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe85",
+        "text": "И жил бы, и не тужил, но честность — сука — взяла своё, и он сказал",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 1,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe86",
+        "text": "Допил. Поставил стакан. Вытер рот рукавом и негромко сказал",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.6
+      },
+      {
+        "id": "poe87",
+        "text": "За окном — Русь, блядь. А в этой Руси — одна фраза",
+        "tags": [
+          "literary",
+          "rough",
+          "provincial"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe88",
+        "text": "Собака у крыльца. Луна. Тишина. И единственное, что можно сказать",
+        "tags": [
+          "literary",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe89",
+        "text": "Нет больше ни деревни, ни берёз, ни тройки. Осталось одно",
+        "tags": [
+          "literary",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe90",
+        "text": "Он пил не для храбрости, а чтобы наконец сказать одно",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe91",
+        "text": "Конь стоит, мужик лежит, луна светит. И тишина говорит",
+        "tags": [
+          "literary",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe92",
+        "text": "Наутро не помнил ничего, кроме одной фразы, нацарапанной ногтем на столе",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe93",
+        "text": "Продал гармонь, пропил деньги, сел на порог и сквозь слёзы выдавил",
+        "tags": [
+          "literary",
+          "rough",
+          "provincial"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe94",
+        "text": "Где-то в России, в каком-то поле, один голос произнёс",
+        "tags": [
+          "literary",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe95",
+        "text": "Цветы завяли, письма сгорели, а одна строчка осталась жить",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe96",
+        "text": "Он любил берёзы, собак и водку. Но больше всего — одну фразу",
+        "tags": [
+          "literary",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe97",
+        "text": "Хулиган? Может быть. Но хулиган, знающий одну правду",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe98",
+        "text": "Утро. Похмелье. Разбитое зеркало. В осколке — одна фраза",
+        "tags": [
+          "literary",
+          "rough",
+          "urban"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe99",
+        "text": "Вся Россия — ёбаный кабак. И в каждом кабаке на стене одно и то же",
+        "tags": [
+          "literary",
+          "rough",
+          "provincial"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe100",
+        "text": "Лошадь захромала, телега встала, ямщик слез и впервые за десять лет сказал",
+        "tags": [
+          "literary",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe101",
+        "text": "Осень. Грязь. Последний лист упал и на нём было",
+        "tags": [
+          "literary",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe102",
+        "text": "Женщина ушла. Собака осталась. Собака знала одно",
+        "tags": [
+          "literary",
+          "provincial",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe103",
+        "text": "Ебал я эту тоску, эту грязь, это серое небо — но одну фразу из этой грязи заберу",
+        "tags": [
+          "literary",
+          "rough",
+          "provincial"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe104",
+        "text": "Выпил. Закурил. Посмотрел на звёзды. Звёзды молчали. Он — нет",
+        "tags": [
+          "literary",
+          "provincial"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe105",
+        "text": "Последний раз в деревне. Последний стакан. Последнее слово",
+        "tags": [
+          "literary",
+          "provincial"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe106",
+        "text": "Деревья думали. Думали долго. И додумались до одного",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe107",
+        "text": "Капли на стекле собирались в слова. Слово было одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe108",
+        "text": "Сад молчал. Потом заговорил листвой. Листва сказала",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe109",
+        "text": "Ночь писала по небу тем же почерком, что и по бумаге. Текст был один",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe110",
+        "text": "Грязь, оттепель, ручей. Ручей нёс одну и ту же мысль под мостом",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe111",
+        "text": "Метель диктовала. Стенографистка опоздала. Остался один абзац",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe112",
+        "text": "Гром прокатился над городом и сказал одно слово. Город расслышал",
+        "tags": [
+          "literary",
+          "philosophical",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe113",
+        "text": "Рельсы уходят в туман. На шпале кто-то мелом написал",
+        "tags": [
+          "literary",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe114",
+        "text": "Стихи не пишутся — случаются. Этот случился так",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe115",
+        "text": "Весна ударила в голову, и он сказал то, что деревья говорят каждый апрель",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe116",
+        "text": "Роса на траве. Если прочитать её как шрифт Брайля, получится",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "poe117",
+        "text": "Птицы улетели. Осталось эхо. Эхо повторяло одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe118",
+        "text": "Закат покрасил стену в рыжий. На рыжем проступила надпись",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe119",
+        "text": "Река знала одно слово и повторяла его камням каждый день",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe120",
+        "text": "Яблоня уронила последнее яблоко. Оно подкатилось к ногам и сказало",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe121",
+        "text": "Лес зашумел. Не ветром — словами. Слово было одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe122",
+        "text": "Снежинка легла на ладонь и, прежде чем растаять, успела сказать",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe123",
+        "text": "Всё это было: сад, и дом, и дождь. А смысл оказался один",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe124",
+        "text": "Окно запотело. Кто-то невидимый пальцем вывел одну строку",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe125",
+        "text": "Февраль. Достать тетрадь. Но в ней уже есть одна запись, сделанная не рукой",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe126",
+        "text": "Слово упало в тишину как камень в воду. Слово было одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe127",
+        "text": "В Петербурге жить — словно спать в гробу. И сон один",
+        "tags": [
+          "literary",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe128",
+        "text": "Камень помнит лучше человека. И камень говорит одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe129",
+        "text": "Слово забыл, которое хотел сказать. Осталось другое — и вот оно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe130",
+        "text": "Время ест мрамор. Мрамор ест память. Память ест всё, кроме одной фразы",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe131",
+        "text": "В каждом веке есть одна фраза, за которую сажают. В нашем — эта",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "poe132",
+        "text": "Тяжелее камня только слово. И самое тяжёлое",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe133",
+        "text": "Касание губ к воде. Касание пера к бумаге. И то и другое произносит одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe134",
+        "text": "Век-волкодав бросается на плечи. Но одну фразу он не смог задушить",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe135",
+        "text": "Архитектура рушится. Язык — нет. Вот что стоит",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe136",
+        "text": "Не любовь — пожар. Не пожар — одна фраза, от которой всё загорелось",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe137",
+        "text": "Возьмите всё, блядь. Стихи, письма, жизнь. Оставьте одну строку",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe138",
+        "text": "Тоска — не болезнь. Тоска — точность. И точность её такова",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe139",
+        "text": "Между мной и миром — стена. На стене — одна надпись",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe140",
+        "text": "Нежность? Была. Гордость? Была. А осталось — одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe141",
+        "text": "Разлука учит одному. Не терпению — одной фразе",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe142",
+        "text": "Я не прошу. Я говорю. И говорю одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe143",
+        "text": "Мой стол — мой щит. Моё перо — мой меч. И рана, которую они наносят",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe144",
+        "text": "Жизнь — черновик. Чистовика не будет. Строка, которую не вычеркнуть",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe145",
+        "text": "Я — никто. Я — все. И единственное, что я знаю точно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe146",
+        "text": "Интеллигент сел завтракать, задумался и вместо масла намазал на хлеб",
+        "tags": [
+          "literary",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe147",
+        "text": "Если собрать все умные мысли, сказанные за завтраком, получится одна глупая",
+        "tags": [
+          "literary",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe148",
+        "text": "Кот посмотрел на хозяина с тем выражением, с каким критик смотрит на поэта. Хозяин понял",
+        "tags": [
+          "literary",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe149",
+        "text": "Графоман дописал сто первый сонет. Все сто один были об одном",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe150",
+        "text": "Дама в пенсне жаловалась на мигрень. Доктор слушал, кивал и записал диагноз",
+        "tags": [
+          "literary",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe151",
+        "text": "Чиновник средней руки написал мемуары. Мемуары уместились в одну фразу",
+        "tags": [
+          "literary",
+          "bureaucracy"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe152",
+        "text": "Филолог разобрал по буквам всё, что сказано о любви. Из букв сложилось одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe153",
+        "text": "Третий звонок. Занавес. На сцену вышел один человек и сказал залу",
+        "tags": [
+          "literary",
+          "urban"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe154",
+        "text": "Критик прочёл всё, понял ничего, и написал единственную честную рецензию",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe155",
+        "text": "Утром хочется кофе, днём — покоя, вечером — правды. Правда такая",
+        "tags": [
+          "literary",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe156",
+        "text": "Туман лёг на город, и город забыл своё имя. Осталось одно слово",
+        "tags": [
+          "literary",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe157",
+        "text": "Цвет — фиолетовый. Звук — тишина. Вкус — одна фраза",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "poe158",
+        "text": "Петербург привиделся, исчез и оставил после себя одну строку",
+        "tags": [
+          "literary",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe159",
+        "text": "Ритм. Ритм. Ритм. И между ударами — одно слово",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe160",
+        "text": "Воздух загустел до консистенции текста. Текст был один",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "poe161",
+        "text": "Всё двоилось: улицы, лица, мысли. Не двоилось одно",
+        "tags": [
+          "literary",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe162",
+        "text": "Бред, горячка, тридцать девять и пять. Единственная связная фраза",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe163",
+        "text": "Реальность оказалась галлюцинацией. Галлюцинация говорила одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.9
+      },
+      {
+        "id": "poe164",
+        "text": "Маятник качался. Стены дышали. Кто-то шёпотом произнёс",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe165",
+        "text": "Зеркало треснуло. В трещине, если приглядеться, читалось",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe166",
+        "text": "Киммерия горит. Полынь горит. Дым складывается в одну фразу",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe167",
+        "text": "Народы рождались и умирали. Каждый оставлял одну и ту же надпись",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe168",
+        "text": "Звёзды над Коктебелем молчат. Но одна — говорит",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe169",
+        "text": "Войны кончаются. Империи кончаются. Не кончается одна фраза",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe170",
+        "text": "Море выбросило на берег бутылку. В бутылке — один текст",
+        "tags": [
+          "literary"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe171",
+        "text": "Степь до горизонта. На горизонте — одна надпись",
+        "tags": [
+          "literary",
+          "provincial"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe172",
+        "text": "Огонь сожрал библиотеку. Уцелел один пепел, и на нём читалось",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe173",
+        "text": "Пророк вышел к народу. Народ ждал откровения. Получил одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe174",
+        "text": "Развалины храма. На колонне — одна фраза, пережившая три цивилизации",
+        "tags": [
+          "literary",
+          "ancient",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe175",
+        "text": "Земля помнит всё: каждый шаг, каждый крик. Но повторяет только одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe176",
+        "text": "Она стояла в очереди триста дней. На триста первый ей передали записку",
+        "tags": [
+          "literary",
+          "urban",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe177",
+        "text": "Перчатку надела на левую руку. С правой. Это всё, что нужно знать, а сказала она одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe178",
+        "text": "Не плакала. Не кричала. Сказала тихо, как кладут цветы",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe179",
+        "text": "Всё отняли: дом, письма, имя. Оставили одну фразу — и этого хватило",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe180",
+        "text": "Муза пришла без приглашения, как всегда. Продиктовала одно",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe181",
+        "text": "Молчала так долго, что молчание стало текстом. Текст был один",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe182",
+        "text": "Руки сложены. Спина прямая. Голос ровный. И единственное, что она сказала",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe183",
+        "text": "Простое, как хлеб. Страшное, как хлеб, которого нет",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe184",
+        "text": "В ту ночь не спал никто. Все думали об одном, но вслух сказала только она",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe185",
+        "text": "После всего, что было. После всего, что не случилось. Одна строка",
+        "tags": [
+          "literary",
+          "philosophical"
+        ],
+        "tone": "neutral",
+        "profanity": 0,
+        "absurdity": 0.7
       }
     ]
   }
