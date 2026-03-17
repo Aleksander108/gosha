@@ -8661,6 +8661,184 @@
         "tone": "rough",
         "profanity": 0,
         "absurdity": 0.9
+      },
+      {
+        "id": "sds51",
+        "text": "Завхоз Прохор медитировал над сломанным краном, охуел от тишины и сказал единственное, что понял",
+        "tags": [
+          "domestic",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds52",
+        "text": "Двадцать ёбаных лет один маршрут. На двадцать первый водитель Геннадий впервые открыл рот и сказал",
+        "tags": [
+          "urban",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds53",
+        "text": "Бухгалтерша Тамара закрыла отчёт, подняла голову и послала весь квартал нахуй. Но перед этим сказала",
+        "tags": [
+          "bureaucracy",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds54",
+        "text": "Штукатур Геннадий три ёбаных часа лежал под потолком. Потолок победил. Геннадий сказал",
+        "tags": [
+          "domestic",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds55",
+        "text": "Счётчик воды, блядь, каждый месяц показывал одно и то же. Сантехник наконец прочитал и понял",
+        "tags": [
+          "domestic",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds56",
+        "text": "Кладовщик Прохор пересчитал гайки. Потом ещё раз. Потом ёбнул кулаком по столу и сказал",
+        "tags": [
+          "provincial",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds57",
+        "text": "Дворник Степан подмёл двор в четыре тысячи пятьсот тридцать второй раз. На этот, блядь, раз он остановился и сказал",
+        "tags": [
+          "domestic",
+          "urban",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds58",
+        "text": "Прорвало трубу. Опять. Сантехник Николай даже не выругался. Сел в воду и ёбаным шёпотом произнёс",
+        "tags": [
+          "domestic",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds59",
+        "text": "Электрик Борис чинил проводку, пока его не ёбнуло током. Очнулся и выдал",
+        "tags": [
+          "domestic",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds60",
+        "text": "На стене столовой, блядь, кто-то вывел кетчупом. Уборщица прочитала, кивнула и не стала стирать. Там было",
+        "tags": [
+          "domestic",
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds61",
+        "text": "Завхоз Глафира тридцать ёбаных лет на одном месте. Всё, нахуй, чему она научилась, сводится к одному",
+        "tags": [
+          "domestic",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds62",
+        "text": "Печенье из столовой. Внутри предсказание. Предсказание такое, что повариха охуела и уволилась",
+        "tags": [
+          "domestic",
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "sds63",
+        "text": "Грузчик Николай поставил десять тысяч первый поддон, сел, закурил и сказал то, от чего все, блядь, замолчали",
+        "tags": [
+          "urban",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds64",
+        "text": "Протечка. Третий ёбаный этаж. Третий ёбаный месяц. Сантехник пришёл, посмотрел и вместо ремонта сказал",
+        "tags": [
+          "domestic",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "sds65",
+        "text": "Пятый раз погас свет. Вахтёр Евлампий сидел в ёбаной темноте и спокойно, как человек, которому давно похуй, говорил",
+        "tags": [
+          "domestic",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
       }
     ],
     "safety": {
@@ -10745,6 +10923,475 @@
         "tone": "neutral",
         "profanity": 0,
         "absurdity": 0.7
+      },
+      {
+        "id": "poe200",
+        "text": "Всё, что нажито за жизнь — одна ёбаная фраза. Зато честная",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe201",
+        "text": "Язык точнее ножа. И самый точный разрез — один, нахуй",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe202",
+        "text": "Бог, если он есть, молчит. Но пустота, блядь, говорит. И говорит одно",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe203",
+        "text": "Тысяча книг. Миллион слов. А правда — одна, и она матерная",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe204",
+        "text": "Вся мировая литература сводится к одной ёбаной строке",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe205",
+        "text": "Поэт — это тот, кто нахуй послал вежливость и сказал как есть",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe206",
+        "text": "Стих не обязан быть красивым. Стих обязан бить в ебало. Вот этот бьёт",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe207",
+        "text": "Слово, блядь, тяжелее камня. И самое тяжёлое",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe208",
+        "text": "В ёбаном мире, где всё продаётся, одна вещь бесплатна — правда. Вот она",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe209",
+        "text": "Муза пришла пьяная, наблевала на рукопись и оставила одну строку",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe210",
+        "text": "Вся Русь — одна ёбаная берёза. И на коре — одна надпись",
+        "tags": [
+          "literary",
+          "provincial",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe211",
+        "text": "Пропил всё. Луну, звёзды, молодость. Осталась одна блядская фраза",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe212",
+        "text": "Гармонь заиграла и сразу заткнулась. Потому что слова оказались сильнее, нахуй",
+        "tags": [
+          "literary",
+          "provincial",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe213",
+        "text": "Поле. Грязь. Тоска, блядь, до горизонта. И на горизонте — одна фраза",
+        "tags": [
+          "literary",
+          "provincial",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe214",
+        "text": "Последний стакан. Последний нахуй. Последнее слово",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe215",
+        "text": "Природа не ёбаный декоратор — она говорит одно и то же тысячу лет",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe216",
+        "text": "Дождь, блядь, опять. И опять он стучит одно и то же",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe217",
+        "text": "Век-волкодав, ёб твою мать. Но одну фразу он не сожрал",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 3,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe218",
+        "text": "Камень, блядь, помнит. Люди — нет. Камень говорит",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe219",
+        "text": "Нежность сдохла. Гордость сдохла. Осталась одна ёбаная правда",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe220",
+        "text": "Мой стол, моё перо, моя война. И единственная рана, которую не зашить, блядь, ничем",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe221",
+        "text": "Триста дней в очереди. Триста ёбаных дней. И на триста первый ей передали записку",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe222",
+        "text": "Всё отняли. Всё, блядь, до последнего. Оставили одну фразу — и этого хватило",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe223",
+        "text": "Литература — это когда написал хуйню, зачеркнул, и под хуйнёй оказалась правда",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe224",
+        "text": "Графоман пишет много и плохо. Поэт — одну ёбаную строку. Но какую",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe225",
+        "text": "Деталь. Одна ёбаная деталь — и весь мир в ней. Деталь такая",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe226",
+        "text": "Бабочка села на страницу. Крыльями закрыла всё, кроме одной строки. Ебать, какой строки",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.9
+      },
+      {
+        "id": "poe227",
+        "text": "Тихо. Сухо. Точно. И вдруг — одна фраза, от которой хочется выть, блядь, на луну",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe228",
+        "text": "Он молчал всю жизнь. Когда заговорил — мат стоял до потолка. Но суть была одна",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe229",
+        "text": "Интеллигент выругался впервые в жизни. Вышло поэтичнее, чем все его стихи",
+        "tags": [
+          "literary",
+          "urban",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 0,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe230",
+        "text": "Реальность ёбнулась. Галлюцинация заговорила. Единственная связная фраза",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.9
+      },
+      {
+        "id": "poe231",
+        "text": "Империи сгорели нахуй. Храмы рухнули. Одна фраза пережила всех",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe232",
+        "text": "Если долго смотреть в пустоту, пустота скажет. И скажет она, блядь, точнее любого поэта",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe233",
+        "text": "Честность — это когда нечего терять, нахуй. И тогда звучит одно",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe234",
+        "text": "Язык переживёт и автора, и страну, и вообще всё на хуй. Язык говорит",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe235",
+        "text": "Ни одна рифма не стоит правды. Правда не рифмуется. Она звучит так, ёбаный стыд",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe236",
+        "text": "Тишина — единственный честный поэт. Её стих короткий, как пиздец, и вот он",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe237",
+        "text": "Перо сломалось к хуям. Чернила кончились. Но строка осталась",
+        "tags": [
+          "literary",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.7
+      },
+      {
+        "id": "poe238",
+        "text": "Одна строка, блядь, одна — и в ней больше жизни, чем во всём собрании сочинений",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
+      },
+      {
+        "id": "poe239",
+        "text": "Поэзия кончилась. Осталась проза. Проза кончилась. Осталась одна ёбаная правда",
+        "tags": [
+          "literary",
+          "philosophical",
+          "rough"
+        ],
+        "tone": "rough",
+        "profanity": 2,
+        "absurdity": 0.8
       }
     ],
     "epitaph_setup": [
